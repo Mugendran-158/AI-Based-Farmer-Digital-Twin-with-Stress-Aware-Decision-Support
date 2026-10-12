@@ -1,0 +1,21 @@
+Query                          | Exp Topic  | Exp Key                   | Status
+------------------------------------------------------------------------------------------
+what are the market prices     | market     | MARKET_AWARENESS_GENERIC  | PASS
+rice prices                    | market     | MARKET_AWARENESS_GENERIC  | PASS
+how to grow rice               | crops      | RICE_GUIDE                | PASS
+tomato rate                    | market     | MARKET_AWARENESS_GENERIC  | PASS
+paddy farming tips             | crops      | RICE_GUIDE                | PASS
+market trend                   | market     | MARKET_AWARENESS_GENERIC  | PASS
+hai                            | general    | GREETING_RESPONSE         | PASS
+hi                             | general    | GREETING_RESPONSE         | PASS
+hello                          | general    | GREETING_RESPONSE         | PASS
+வணக்கம்                        | general    | GREETING_RESPONSE         | PASS
+what is your name              | general    | NAME_RESPONSE             | PASS
+who are you                    | general    | NAME_RESPONSE             | PASS
+உங்கள் பெயர் என்ன?             | general    | NAME_RESPONSE             | PASS
+how to use fertilizer          | crops      | CROP_NUTRITION_GUIDE      | PASS
+when to harvest rice           | crops      | CROP_HARVEST_GUIDE        | PASS
+how to remove weeds            | crops      | CROP_MAINTENANCE_GUIDE    | PASS
+what are market prices         | crop_management | CROP_MANAGEMENT_REDIRECT  | PASS
+tell me about harvesting       | crop_management | CROP_HARVEST_GUIDE        | PASS
+any tips for farming           | crop_management | CROP_MANAGEMENT_STAGE_GENERIC | PASS

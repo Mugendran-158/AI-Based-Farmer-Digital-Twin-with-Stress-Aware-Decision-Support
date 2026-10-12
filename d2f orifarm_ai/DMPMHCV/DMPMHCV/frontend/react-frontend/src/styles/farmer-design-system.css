@@ -1,0 +1,411 @@
+/**
+ * FARMER-CENTRIC DESIGN SYSTEM
+ * 
+ * A calm, trustworthy, and professional design language
+ * for smart agriculture platforms.
+ * 
+ * Optimized for:
+ * - Rural farmers
+ * - Low-end devices
+ * - High readability
+ * - Reduced cognitive load
+ */
+
+/* ===================================
+   🎨 FARMER-FIRST COLOR PALETTE
+   =================================== */
+
+:root {
+    /* Primary - Deep Earth Green (Trust & Growth) */
+    --farmer-green-50: #f0fdf4;
+    --farmer-green-100: #dcfce7;
+    --farmer-green-200: #bbf7d0;
+    --farmer-green-300: #86efac;
+    --farmer-green-400: #4ade80;
+    --farmer-green-500: #22c55e;
+    --farmer-green-600: #16a34a;
+    --farmer-green-700: #15803d;
+    --farmer-green-800: #166534;
+    --farmer-green-900: #14532d;
+
+    /* Secondary - Soil Brown (Grounded & Stable) */
+    --farmer-brown-50: #fdf8f6;
+    --farmer-brown-100: #f2e8e5;
+    --farmer-brown-200: #eaddd7;
+    --farmer-brown-300: #d7c4b7;
+    --farmer-brown-400: #c69b7b;
+    --farmer-brown-500: #a67c52;
+    --farmer-brown-600: #8b5e34;
+    --farmer-brown-700: #6f4518;
+    --farmer-brown-800: #5a3511;
+    --farmer-brown-900: #3d220a;
+
+    /* Tertiary - Sky Blue (Hope & Clarity) */
+    --farmer-sky-50: #f0f9ff;
+    --farmer-sky-100: #e0f2fe;
+    --farmer-sky-200: #bae6fd;
+    --farmer-sky-300: #7dd3fc;
+    --farmer-sky-400: #38bdf8;
+    --farmer-sky-500: #0ea5e9;
+    --farmer-sky-600: #0284c7;
+    --farmer-sky-700: #0369a1;
+    --farmer-sky-800: #075985;
+    --farmer-sky-900: #0c4a6e;
+
+    /* Accent - Golden Harvest (Success & Prosperity) */
+    --farmer-gold-50: #fefce8;
+    --farmer-gold-100: #fef9c3;
+    --farmer-gold-200: #fef08a;
+    --farmer-gold-300: #fde047;
+    --farmer-gold-400: #facc15;
+    --farmer-gold-500: #eab308;
+    --farmer-gold-600: #ca8a04;
+    --farmer-gold-700: #a16207;
+    --farmer-gold-800: #854d0e;
+    --farmer-gold-900: #713f12;
+
+    /* Neutrals - Clean & Professional */
+    --farmer-gray-50: #fafaf9;
+    --farmer-gray-100: #f5f5f4;
+    --farmer-gray-200: #e7e5e4;
+    --farmer-gray-300: #d6d3d1;
+    --farmer-gray-400: #a8a29e;
+    --farmer-gray-500: #78716c;
+    --farmer-gray-600: #57534e;
+    --farmer-gray-700: #44403c;
+    --farmer-gray-800: #292524;
+    --farmer-gray-900: #1c1917;
+
+    /* Semantic Colors */
+    --farmer-success: var(--farmer-green-600);
+    --farmer-warning: var(--farmer-gold-500);
+    --farmer-error: #dc2626;
+    --farmer-info: var(--farmer-sky-600);
+
+    /* Surface Colors */
+    --farmer-bg-primary: #ffffff;
+    --farmer-bg-secondary: var(--farmer-gray-50);
+    --farmer-bg-tertiary: var(--farmer-green-50);
+
+    /* Text Colors */
+    --farmer-text-primary: var(--farmer-gray-900);
+    --farmer-text-secondary: var(--farmer-gray-600);
+    --farmer-text-tertiary: var(--farmer-gray-500);
+    --farmer-text-inverse: #ffffff;
+
+    /* Border Colors */
+    --farmer-border-light: var(--farmer-gray-200);
+    --farmer-border-medium: var(--farmer-gray-300);
+    --farmer-border-strong: var(--farmer-gray-400);
+
+    /* Shadow Colors */
+    --farmer-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --farmer-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --farmer-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --farmer-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --farmer-shadow-glow: 0 0 15px rgba(34, 197, 94, 0.3);
+
+    /* Spacing Scale (based on 4px) */
+    --farmer-space-1: 0.25rem;
+    /* 4px */
+    --farmer-space-2: 0.5rem;
+    /* 8px */
+    --farmer-space-3: 0.75rem;
+    /* 12px */
+    --farmer-space-4: 1rem;
+    /* 16px */
+    --farmer-space-5: 1.25rem;
+    /* 20px */
+    --farmer-space-6: 1.5rem;
+    /* 24px */
+    --farmer-space-8: 2rem;
+    /* 32px */
+    --farmer-space-10: 2.5rem;
+    /* 40px */
+    --farmer-space-12: 3rem;
+    /* 48px */
+    --farmer-space-16: 4rem;
+    /* 64px */
+
+    /* Border Radius */
+    --farmer-radius-sm: 0.375rem;
+    /* 6px */
+    --farmer-radius-md: 0.5rem;
+    /* 8px */
+    --farmer-radius-lg: 0.75rem;
+    /* 12px */
+    --farmer-radius-xl: 1rem;
+    /* 16px */
+    --farmer-radius-2xl: 1.5rem;
+    /* 24px */
+    --farmer-radius-full: 9999px;
+
+    /* Typography */
+    --farmer-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --farmer-font-mono: 'JetBrains Mono', monospace;
+
+    /* Font Sizes */
+    --farmer-text-xs: 0.75rem;
+    /* 12px */
+    --farmer-text-sm: 0.875rem;
+    /* 14px */
+    --farmer-text-base: 1rem;
+    /* 16px */
+    --farmer-text-lg: 1.125rem;
+    /* 18px */
+    --farmer-text-xl: 1.25rem;
+    /* 20px */
+    --farmer-text-2xl: 1.5rem;
+    /* 24px */
+    --farmer-text-3xl: 1.875rem;
+    /* 30px */
+    --farmer-text-4xl: 2.25rem;
+    /* 36px */
+
+    /* Font Weights */
+    --farmer-font-normal: 400;
+    --farmer-font-medium: 500;
+    --farmer-font-semibold: 600;
+    --farmer-font-bold: 700;
+
+    /* Line Heights */
+    --farmer-leading-tight: 1.25;
+    --farmer-leading-normal: 1.5;
+    --farmer-leading-relaxed: 1.75;
+
+    /* Transitions */
+    --farmer-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --farmer-transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --farmer-transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Z-Index Scale */
+    --farmer-z-dropdown: 1000;
+    --farmer-z-sticky: 1020;
+    --farmer-z-fixed: 1030;
+    --farmer-z-modal-backdrop: 1040;
+    --farmer-z-modal: 1050;
+    --farmer-z-popover: 1060;
+    --farmer-z-tooltip: 1070;
+}
+
+/* Dark Mode (Optional - for night mode) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --farmer-bg-primary: var(--farmer-gray-900);
+        --farmer-bg-secondary: var(--farmer-gray-800);
+        --farmer-bg-tertiary: var(--farmer-gray-700);
+        --farmer-text-primary: var(--farmer-gray-50);
+        --farmer-text-secondary: var(--farmer-gray-300);
+        --farmer-border-light: var(--farmer-gray-700);
+        --farmer-border-medium: var(--farmer-gray-600);
+    }
+}
+
+/* ===================================
+   🎭 PREMIUM COMPONENT STYLES
+   =================================== */
+
+/* Farmer Button - Tactile & Trustworthy */
+.farmer-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--farmer-space-2);
+    padding: var(--farmer-space-3) var(--farmer-space-6);
+    font-family: var(--farmer-font-sans);
+    font-size: var(--farmer-text-base);
+    font-weight: var(--farmer-font-semibold);
+    line-height: var(--farmer-leading-normal);
+    border-radius: var(--farmer-radius-lg);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all var(--farmer-transition-base);
+    position: relative;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.farmer-btn:focus-visible {
+    outline: 2px solid var(--farmer-green-500);
+    outline-offset: 2px;
+}
+
+.farmer-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Primary Button - Green Harvest */
+.farmer-btn-primary {
+    background: linear-gradient(135deg, var(--farmer-green-600), var(--farmer-green-700));
+    color: var(--farmer-text-inverse);
+    box-shadow: var(--farmer-shadow-md);
+}
+
+.farmer-btn-primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, var(--farmer-green-500), var(--farmer-green-600));
+    box-shadow: var(--farmer-shadow-lg), var(--farmer-shadow-glow);
+    transform: translateY(-1px);
+}
+
+.farmer-btn-primary:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: var(--farmer-shadow-sm);
+}
+
+/* Secondary Button - Earth Tone */
+.farmer-btn-secondary {
+    background: var(--farmer-bg-primary);
+    color: var(--farmer-green-700);
+    border-color: var(--farmer-green-600);
+    box-shadow: var(--farmer-shadow-sm);
+}
+
+.farmer-btn-secondary:hover:not(:disabled) {
+    background: var(--farmer-green-50);
+    border-color: var(--farmer-green-700);
+    box-shadow: var(--farmer-shadow-md);
+}
+
+/* Farmer Card - Soft Depth */
+.farmer-card {
+    background: var(--farmer-bg-primary);
+    border: 1px solid var(--farmer-border-light);
+    border-radius: var(--farmer-radius-xl);
+    padding: var(--farmer-space-6);
+    box-shadow: var(--farmer-shadow-md);
+    transition: all var(--farmer-transition-slow);
+}
+
+.farmer-card:hover {
+    box-shadow: var(--farmer-shadow-lg);
+    transform: translateY(-2px);
+    border-color: var(--farmer-green-200);
+}
+
+/* Farmer Input - Clean & Readable */
+.farmer-input {
+    width: 100%;
+    padding: var(--farmer-space-4);
+    font-family: var(--farmer-font-sans);
+    font-size: var(--farmer-text-lg);
+    color: var(--farmer-text-primary);
+    background: var(--farmer-bg-primary);
+    border: 2px solid var(--farmer-border-medium);
+    border-radius: var(--farmer-radius-lg);
+    transition: all var(--farmer-transition-base);
+}
+
+.farmer-input:focus {
+    outline: none;
+    border-color: var(--farmer-green-500);
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+}
+
+.farmer-input::placeholder {
+    color: var(--farmer-text-tertiary);
+}
+
+/* Farmer Label */
+.farmer-label {
+    display: block;
+    margin-bottom: var(--farmer-space-2);
+    font-size: var(--farmer-text-sm);
+    font-weight: var(--farmer-font-semibold);
+    color: var(--farmer-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ===================================
+   ✨ SUBTLE MICRO-ANIMATIONS
+   =================================== */
+
+@keyframes farmer-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes farmer-gentle-pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes farmer-shimmer {
+    0% {
+        background-position: -200% center;
+    }
+
+    100% {
+        background-position: 200% center;
+    }
+}
+
+@keyframes farmer-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 15px rgba(34, 197, 94, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(34, 197, 94, 0.5);
+    }
+}
+
+/* Fade In Animation */
+.farmer-animate-fade-in {
+    animation: farmer-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Gentle Pulse */
+.farmer-animate-pulse {
+    animation: farmer-gentle-pulse 3s ease-in-out infinite;
+}
+
+/* Loading Shimmer */
+.farmer-animate-shimmer {
+    background: linear-gradient(90deg,
+            var(--farmer-gray-200) 0%,
+            var(--farmer-gray-100) 50%,
+            var(--farmer-gray-200) 100%);
+    background-size: 200% 100%;
+    animation: farmer-shimmer 2s ease-in-out infinite;
+}
+
+/* Glow Effect */
+.farmer-animate-glow {
+    animation: farmer-glow 2s ease-in-out infinite;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .farmer-animate-pulse,
+    .farmer-animate-shimmer,
+    .farmer-animate-glow {
+        animation: none !important;
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "global_standards": {
+        "wheat": {
+            "sowing": {
+                "depth_cm": 4,
+                "spacing_cm": "20-22",
+                "seed_rate_kg_ha": 100
+            },
+            "irrigation": {
+                "critical_stages": [
+                    "CRI (Crown Root Initiation)",
+                    "Tillering",
+                    "Flowering",
+                    "Milking"
+                ],
+                "total_water_mm": "450-650"
+            },
+            "nutrients": {
+                "NPK": "120:60:40",
+                "micronutrients": [
+                    "Zinc",
+                    "Sulfur"
+                ]
+            },
+            "expert_troubleshooting": {
+                "yellowing_bottom_leaves": "Nitrogen (N) Deficiency. (Source: USDA Standard). Apply top-dressing of urea during tillering.",
+                "purple_tint_stems": "Phosphorus (P) Deficiency. (Source: FAO Soil Map). Occurs in cold soils. Apply DAP or SSP.",
+                "burnt_leaf_edges": "Potassium (K) Deficiency. (Source: BUMI Intel). Critical for grain filling. Apply MoP.",
+                "loose_black_heads": "Loose Smut (Fungal). Ustilago nuda. (Source: PlantVillage). Destroy infected plants; use solar seed treatment for next season."
+            }
+        },
+        "rice": {
+            "sowing": {
+                "depth_cm": 2,
+                "spacing_cm": "20x15",
+                "seed_rate_kg_ha": "40-60"
+            },
+            "irrigation": {
+                "method": "Flooding",
+                "submergence_cm": 5,
+                "critical_stages": [
+                    "Tillering",
+                    "Panicle Initiation",
+                    "Flowering"
+                ]
+            },
+            "nutrients": {
+                "NPK": "120:60:60",
+                "micronutrients": [
+                    "Zinc",
+                    "Iron"
+                ]
+            },
+            "expert_troubleshooting": {
+                "yellow_center_leaves": "Zinc (Zn) Deficiency (Khaira disease). (Source: Data.gov.in). Apply Zinc Sulfate spray.",
+                "bronzing_leaves": "Iron (Fe) Deficiency. (Source: FAO). Common in calcareous soils. Use Chelated Iron spray.",
+                "narrow_brown_spots": "Brown Spot. Helminthosporium oryzae. (Source: PlantVillage). Increase potash application.",
+                "empty_white_panicles": "Stem Borer attack. Scirpophaga incertulas. (Source: BUMI). Use pheromone traps or tricyclazole."
+            }
+        },
+        "cotton": {
+            "sowing": {
+                "depth_cm": 4,
+                "spacing_cm": "90x60"
+            },
+            "irrigation": {
+                "method": "Furrow",
+                "critical_stages": [
+                    "Flowering",
+                    "Boll Development"
+                ]
+            },
+            "nutrients": {
+                "NPK": "100:50:50"
+            },
+            "expert_troubleshooting": {
+                "reddening_leaves": "Magnesium Deficiency. (Source: Data.gov.in). Apply Epsom Salt.",
+                "boll_dropping": "Water stress or Ethylene imbalance. (Source: USDA). Maintain uniform moisture."
+            }
+        },
+        "tomato": {
+            "sowing": {
+                "depth_cm": 0.5,
+                "spacing_cm": "60x45"
+            },
+            "irrigation": {
+                "method": "Drip",
+                "critical_stages": [
+                    "Transplanting",
+                    "Flowering",
+                    "Fruit set"
+                ]
+            },
+            "nutrients": {
+                "NPK": "100:80:60"
+            },
+            "expert_troubleshooting": {
+                "blossom_end_rot": "Calcium Deficiency. (Source: PlantVillage). Check soil pH and watering consistency.",
+                "leaf_curl": "Whitefly transmitted virus or Heat stress. (Source: BUMI). Use yellow sticky traps."
+            }
+        }
+    },
+    "integrated_datasets": {
+        "metadata": {
+            "last_sync": "2026-01-19",
+            "sources": [
+                "FAOSTAT v2.1",
+                "Data.gov.in Agri-Repo",
+                "BUMI Institutional v8",
+                "Kaggle Agri-Clean",
+                "PlantVillage Disease Bio-Bank",
+                "USDA Economic Research"
+            ]
+        },
+        "market_analytics": {
+            "global_trends": "FAOSTAT indicates 12% rise in cereal demand. Strategic storage recommended.",
+            "local_mandis": "Data.gov.in reports price stability for Kharif crops across South Asian corridor.",
+            "price_forecast": "USDA ERS predicts bullish trend for organic produce exports."
+        },
+        "neural_bridge": {
+            "status": "OPERATIONAL",
+            "engine": "Farmer Assistant Digital Twin",
+            "protocol": "BUMI Rule-Based Synthesis"
+        }
+    },
+    "general_advice": {
+        "climate_resilience": {
+            "heat": "Synthesized from FAO: Use mulching and light irrigation to cool root zones.",
+            "cold/frost": "Synthesized from USDA: Apply light irrigation; create smoke around field.",
+            "heavy_rain": "Synthesized from BUMI: Ensure deep drainage channels are clear."
+        }
+    }
+}

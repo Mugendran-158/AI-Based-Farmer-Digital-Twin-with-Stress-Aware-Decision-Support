@@ -1,0 +1,285 @@
+{
+    "general": {
+        "title": "General Farming",
+        "description": "Basic farming practices, planning, seasons, best practices",
+        "intent_keywords": {
+            "planning": [
+                "best time",
+                "start farming",
+                "planning",
+                "begin",
+                "சாகுபடி நேரம்",
+                "फसल शुरू",
+                "months",
+                "season"
+            ],
+            "practices": [
+                "best practices",
+                "good farming",
+                "basics",
+                "fundamentals",
+                "நடைமுறைகள்",
+                "नियम",
+                "guide",
+                "tips"
+            ],
+            "seasons": [
+                "kharif",
+                "rabi",
+                "summer",
+                "monsoon",
+                "பருவம்",
+                "मौसम",
+                "winter",
+                "autumn"
+            ]
+        }
+    },
+    "crops": {
+        "title": "Crop Management",
+        "description": "Sowing, spacing, fertilizer, growth stages, yield",
+        "intent_keywords": {
+            "yield_improvement": [
+                "increase yield",
+                "higher production",
+                "more crop",
+                "விளைச்சல் அதிகரிக்க",
+                "पैदावार बढ़ाएं",
+                "booster",
+                "harvest size"
+            ],
+            "sowing": [
+                "sowing",
+                "spacing",
+                "depth",
+                "seeds",
+                "seed rate",
+                "விதைத்தல்",
+                "बुवाई",
+                "distance",
+                "spacing",
+                "how deep"
+            ],
+            "growth_stages": [
+                "stage",
+                "flowering",
+                "fruiting",
+                "tillering",
+                "வளர்ச்சி நிலை",
+                "अवस्था",
+                "vegetative",
+                "milking"
+            ]
+        }
+    },
+    "soil": {
+        "title": "Soil Health",
+        "description": "Soil type, nutrients, improvement, organic methods",
+        "intent_keywords": {
+            "improvement": [
+                "improve soil",
+                "enrich",
+                "quality",
+                "மேம்படுத்த",
+                "सुधार",
+                "fertility",
+                "texture"
+            ],
+            "nutrients": [
+                "fertilizer",
+                "manure",
+                "nitrogen",
+                "npk",
+                "உரம்",
+                "खाद",
+                "compost",
+                "zinc",
+                "potash"
+            ],
+            "testing": [
+                "soil test",
+                "ph level",
+                "sample",
+                "மண் பரிசோதனை",
+                "मिट्टी परीक्षण",
+                "acidity",
+                "alkalinity"
+            ]
+        }
+    },
+    "weather": {
+        "title": "Weather Impact",
+        "description": "Weather risks, protection, adaptation",
+        "intent_keywords": {
+            "risk_management": [
+                "heavy rain",
+                "storm",
+                "drought",
+                "heat",
+                "மழை பாதிகு",
+                "भारी बारिश",
+                "frost",
+                "damage",
+                "protection"
+            ],
+            "adaptation": [
+                "adapt",
+                "change weather",
+                "forecast",
+                "வானிலை மாற்றம்",
+                "मौसम परिवर्तन",
+                "climate",
+                "resilience"
+            ],
+            "rain_impact": [
+                "rain effect",
+                "flooding",
+                "waterlogged",
+                "மழையினால்",
+                "बारिश का प्रभाव",
+                "run-off"
+            ]
+        }
+    },
+    "market": {
+        "title": "Market Prices",
+        "description": "Price trends, selling time, storage",
+        "intent_keywords": {
+            "selling_time": [
+                "when to sell",
+                "best price",
+                "market rate",
+                "விற்க நேரம்",
+                "बेचने का समय",
+                "mandi",
+                "profit",
+                "demand"
+            ],
+            "storage_advice": [
+                "storage",
+                "warehouse",
+                "cold storage",
+                "கிடங்கு",
+                "भंडारण",
+                "shelf life",
+                "preserve"
+            ],
+            "price_trends": [
+                "price",
+                "trend",
+                "forecast",
+                "விலை",
+                "कीमत",
+                "value",
+                "cost"
+            ]
+        }
+    },
+    "pests": {
+        "title": "Pest Control",
+        "description": "Pest identification, organic & chemical control",
+        "intent_keywords": {
+            "organic_control": [
+                "organic",
+                "neem",
+                "natural",
+                "இயற்கை",
+                "जैविक",
+                "homemade",
+                "bio-pesticide"
+            ],
+            "pest_id": [
+                "aphids",
+                "worm",
+                "insect",
+                "bug",
+                "identify",
+                "பூச்சி",
+                "कीट",
+                "spots",
+                "holes"
+            ],
+            "chemical_control": [
+                "pesticide",
+                "spray",
+                "chemical",
+                "மருந்து",
+                "कीटनाशक",
+                "fungicide",
+                "herbicid"
+            ]
+        }
+    },
+    "irrigation": {
+        "title": "Irrigation",
+        "description": "Water quantity, method, frequency",
+        "intent_keywords": {
+            "schedule": [
+                "how often",
+                "frequency",
+                "intervals",
+                "எப்பொழுது தண்ணீர்",
+                "कितनी बार",
+                "timing",
+                "when to water",
+                "when should i water",
+                "water frequency",
+                "irrigation frequency",
+                "watering"
+            ],
+            "method": [
+                "drip",
+                "sprinkler",
+                "flood",
+                "சிம்புகள்",
+                "method",
+                "how to water",
+                "system",
+                "way"
+            ],
+            "water_quantity": [
+                "how much",
+                "liters",
+                "quantity",
+                "எவ்வளவு",
+                "कितना",
+                "volume",
+                "depth"
+            ]
+        }
+    },
+    "equipment": {
+        "title": "Equipment",
+        "description": "Tools, machines, maintenance, cost-effective options",
+        "intent_keywords": {
+            "selection": [
+                "which equipment",
+                "best tool",
+                "tractor",
+                "plough",
+                "கருவி",
+                "उपकरण",
+                "machine",
+                "options"
+            ],
+            "small_farmers": [
+                "small scale",
+                "affordable",
+                "cheap",
+                "குறு விவசாயிகள்",
+                "छोटे किसान",
+                "manual",
+                "hand tools"
+            ],
+            "maintenance": [
+                "repair",
+                "service",
+                "oil",
+                "பராமரிப்பு",
+                "रखरखाव",
+                "cleaning",
+                "storage"
+            ]
+        }
+    }
+}

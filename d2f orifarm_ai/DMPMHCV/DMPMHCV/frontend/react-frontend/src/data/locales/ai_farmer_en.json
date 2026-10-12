@@ -1,0 +1,1106 @@
+{
+    "GREETING_RESPONSE": {
+        "title": "Welcome! I am your AI Farmer Assistant",
+        "points": [
+            "Hello! I am your AI Farmer Assistant.",
+            "How are you? How can I help you with your farming today?",
+            "I can help with Market Prices, Crop Guides, Soil Health, and more.",
+            "Just ask your question or select a topic above!"
+        ]
+    },
+    "NAME_RESPONSE": {
+        "title": "System Identity Profile",
+        "points": [
+            "My name is AI Farmer Assistant.",
+            "I am a specialized agricultural intelligence system.",
+            "I was designed to help farmers optimize their yields and income."
+        ]
+    },
+    "GENERAL_FARMING_BASE": {
+        "title": "General Farming Intelligence",
+        "points": [
+            "Farming is the practice of cultivating soil, growing crops, and raising livestock.",
+            "It involves land preparation, sowing, irrigation, and harvesting.",
+            "Sustainable practices like crop rotation help maintain long-term soil health.",
+            "Farmers should choose certified seeds and optimize input costs for better profits.",
+            "This module covers basic farming do's and don'ts and general agricultural concepts."
+        ],
+        "safety_warning": "Always follow local agricultural safety standards for heavy machinery.",
+        "closing": "Do you want to continue exploring General Farming?"
+    },
+    "SEED_SELECTION_GUIDE": {
+        "title": "How to Choose Good Quality Seeds",
+        "points": [
+            "1. Choose Certified Seeds: Always buy from authorized shops or government centers; tested for purity/germination.",
+            "2. Select Region-Suitable: Choose varieties recommended for your climate, season, and soil.",
+            "3. Check Appearance: Seeds should be clean, uniform, free from cracks/insect damage, and not discolored.",
+            "4. Check Label: Read for crop variety, season (Kharif/Rabi), expiry date, and germination %.",
+            "5. Disease-Resistant: Prefer varieties resistant to local pests/diseases.",
+            "6. Germination Test (Optional): Soak seeds in wet cloth; more sprouting means better quality.",
+            "7. Avoid Cheap/Unknown Seeds: Extremely low prices often mean poor quality."
+        ]
+    },
+    "LAND_PREPARATION_GUIDE": {
+        "title": "Land Preparation Before Sowing",
+        "points": [
+            "Clean the field completely - remove weeds, stones, and old crop residues.",
+            "Plough properly to loosen soil and improve air circulation (1-2 times based on soil type).",
+            "Level the land to ensure equal water distribution during irrigation.",
+            "Add organic matter (farmyard manure, compost) before sowing.",
+            "Check drainage to prevent waterlogging, especially in clay soils.",
+            "Prepare land according to crop and season requirements.",
+            "Good preparation reduces pests, improves nutrient use, and increases yield."
+        ]
+    },
+    "CROP_ROTATION_GUIDE": {
+        "title": "Crop Rotation Importance",
+        "points": [
+            "Growing different crops each season prevents soil nutrient depletion.",
+            "Pulses add nitrogen naturally; cereals,pulses help balance soil nutrients.",
+            "Reduces pest and disease problems by breaking their life cycles.",
+            "Improves soil structure through varied root depths (deep and shallow).",
+            "Better weed control as different weeds grow with different crops.",
+            "Provides stable income - if one crop fails, next may succeed.",
+            "Examples: Rice → Pulses, Maize → Vegetables, Cotton → Oilseeds."
+        ]
+    },
+    "WATER_MANAGEMENT_GUIDE": {
+        "title": "Efficient Water Management",
+        "points": [
+            "Irrigate only when crop needs it - varies by growth stage.",
+            "Understand soil type: Sandy drains fast, clay holds water longer.",
+            "Avoid over-irrigation - damages roots and washes away nutrients.",
+            "Use rainwater wisely - reduce irrigation after rainfall.",
+            "Irrigate early morning or evening to reduce evaporation.",
+            "Maintain channels and pipes to prevent leaks and wastage.",
+            "Observe crops regularly and adjust based on need, not schedules."
+        ]
+    },
+    "SOIL_CARE_GUIDE": {
+        "title": "Soil Fertility and Care",
+        "points": [
+            "Test soil every 2-3 years to understand nutrient levels (N, P, K).",
+            "Apply well-rotted farmyard manure or green manure to improve soil texture.",
+            "Use bio-fertilizers like Azotobacter or Rhizobium based on crop type.",
+            "Maintain proper pH level - add lime for acidic or gypsum for alkaline soils.",
+            "Practice minimum tillage to protect soil structure and beneficial organisms.",
+            "Grow cover crops to prevent erosion during fallow periods.",
+            "Avoid excessive use of chemical fertilizers which can harden soil."
+        ]
+    },
+    "CROP_MANAGEMENT_STAGE_GENERIC": {
+        "title": "Crop Management: Growth Stages",
+        "points": [
+            "1. Sowing: Use treated, high-quality seeds and maintain correct spacing.",
+            "2. Early Growth: Monitor for weeds and early-stage pests regularly.",
+            "3. Mid-Growth: Ensure timely secondary fertilization and irrigation.",
+            "4. Flowering: Critical stage for water; avoid any moisture stress.",
+            "5. Maturity: Reduce water gradually and check for peak harvest signs.",
+            "6. Harvesting: Harvest during clear weather and store in a dry place."
+        ]
+    },
+    "CROP_SOWING_GUIDE": {
+        "title": "Crop Intelligence: Sowing & Planting",
+        "points": [
+            "Seed Treatment: Treat seeds with fungicides to prevent soil-borne diseases.",
+            "Sowing Depth: Usually 2-3 times the seed diameter for optimal sprouting.",
+            "Line Sowing: Prefer line sowing over broadcasting for better weed control.",
+            "Spacing: Follow recommended row-to-row and plant-to-plant distance.",
+            "Moisture: Ensure soil has enough moisture before sowing for uniform germination.",
+            "Time: Sow only during the recommended window for the specific variety."
+        ]
+    },
+    "CROP_NUTRITION_GUIDE": {
+        "title": "Crop Intelligence: Fertilizer & Nutrition",
+        "points": [
+            "Basal Dose: Apply Phosphorus and Potash during land preparation.",
+            "Top Dressing: Apply Nitrogen (Urea) in 2-3 split doses for better uptake.",
+            "Organic Boost: Use Neem Cake or Bio-manure to improve efficiency.",
+            "Micronutrients: Check for Zinc or Iron deficiency (yellowing leaves).",
+            "Placement: Place fertilizer 5cm away from plants to avoid root burn.",
+            "Foliar Spray: Use liquid nutrients if immediate recovery is needed."
+        ]
+    },
+    "CROP_HARVEST_GUIDE": {
+        "title": "Crop Intelligence: Harvesting Tips",
+        "points": [
+            "Maturity Indicators: Look for color change, moisture drop, or hard grain.",
+            "Timing: Harvest in the morning after dew dries to reduce spoilage.",
+            "Method: Use clean tools; avoid damaging the fruit or grain during picking.",
+            "Cleaning: Remove diseased parts before mixing with the main harvest.",
+            "Drying: Dry the harvest on a clean platform until safe moisture level.",
+            "Post-Harvest: Plan for immediate transport or cool, dry storage."
+        ]
+    },
+    "CROP_MAINTENANCE_GUIDE": {
+        "title": "Crop Intelligence: Field Maintenance",
+        "points": [
+            "Weeding: Remove weeds within 20-40 days of sowing to reduce competition.",
+            "Thinning: Remove extra plants to maintain healthy spacing and air flow.",
+            "Earthing-up: Apply soil to the base of plants (like Maize/Potato) for support.",
+            "Monitoring: Walk through the field daily to spot early stress or pests.",
+            "Pruning: Remove dead or diseased branches to focus plant energy.",
+            "Support: Use stakes for tall or climbing varieties if needed."
+        ]
+    },
+    "CROP_MANAGEMENT_REDIRECT": {
+        "title": "Crop Management Context",
+        "points": [
+            "This section is currently focused on **Crop Management Intelligence**.",
+            "Please ask questions realted to Sowing, Nutrition, Maintenance, or Harvesting.",
+            "For Market Prices or Weather, please select the respective topics in the menu."
+        ]
+    },
+    "SOIL_FERTILITY_GUIDE": {
+        "title": "Maintaining Soil Fertility",
+        "points": [
+            "Add organic matter regularly (manure, compost, crop residues).",
+            "Avoid excessive chemical fertilizers - damages soil microbes.",
+            "Practice crop rotation to prevent nutrient depletion.",
+            "Protect soil from erosion - keep crop residues, avoid excess ploughing.",
+            "Maintain proper moisture - avoid both over and under-irrigation.",
+            "Test soil periodically or observe crop health for problems.",
+            "Avoid soil compaction - no heavy machinery on wet soil."
+        ],
+        "safety_warning": "Handle chemical fertilizers with gloves and mask.",
+        "closing": "Is your soil health improving with these tips?"
+    },
+    "EQUIPMENT_GUIDE_GENERAL": {
+        "title": "Farm Equipment Intelligence",
+        "points": [
+            "Select the right tools: Use tractors for large fields and hand tools for small patches.",
+            "Regular Maintenance: Clean and oil tools after use to prevent rust.",
+            "Safety First: Ensure all machinery shields are in place before operation.",
+            "Calibration: Calibrate seed drills and sprayers for uniform application.",
+            "Storage: Store equipment in a dry, covered area to extend its lifespan."
+        ],
+        "safety_warning": "Never operate heavy machinery while tired or under medication.",
+        "closing": "Do you need advice on a specific piece of machinery?"
+    },
+    "EQUIPMENT_SELECTION_GUIDE": {
+        "title": "Equipment Selection Guide",
+        "points": [
+            "Consider land size: Power tillers for 2-5 acres, tractors for 10+ acres.",
+            "Soil type matters: Heavy clay requires higher HP tractors compared to sandy soils.",
+            "Fuel efficiency: Choose modern engines with fuel-saving technology.",
+            "Service availability: Buy brands that have authorized service centers nearby.",
+            "Implements check: Ensure the machine is compatible with your existing plows or seeders."
+        ],
+        "safety_warning": "Check for manufacturer recall notices before purchasing used equipment.",
+        "closing": "Are you planning to buy a new machine soon?"
+    },
+    "EQUIPMENT_TECH_GUIDE": {
+        "title": "Manual vs Mechanized Tools",
+        "points": [
+            "Manual Tools: Cost-effective for small vegetable gardens and precision weeding.",
+            "Mechanized Tools: Essential for large-scale operations to save time and labor.",
+            "Efficiency: One tractor can do the work of 20 manual laborers in a day.",
+            "Cost-Benefit: Mechanization has higher upfront cost but lower long-term per-acre cost.",
+            "Hybrid Approach: Use machines for heavy lifting and manual labor for delicate tasks."
+        ],
+        "safety_warning": "Always use appropriate protective gear when using power tools.",
+        "closing": "Would you like to compare specific tools?"
+    },
+    "MARKET_PROFIT_GUIDE": {
+        "title": "Market Profit & Timing",
+        "points": [
+            "Monitor trends: Prices usually peak during the off-season.",
+            "Direct selling: Sell directly to consumers or local markets to avoid middlemen (commission).",
+            "Value addition: Process raw crops (e.g., tomato to puree) for significantly higher profits.",
+            "Group marketing: Join farmer collectives to negotiate better prices with bulk buyers.",
+            "Quality pays: Grade your produce; 'A-grade' crops always fetch a premium rate."
+        ],
+        "safety_warning": "Never sell during a market crash; wait for price stabilization if possible.",
+        "closing": "Would you like to know about value addition methods?"
+    },
+    "MARKET_STORAGE_GUIDE": {
+        "title": "Storage & Mandi Advice",
+        "points": [
+            "Moisture control: Dry grains to 12-14% moisture before storage to prevent fungus.",
+            "Cold storage: Use cold storage for perishables like potatoes and fruits to wait for better prices.",
+            "Pest-proof: Use airtight bins or bags to protect stored grain from weevils and rodents.",
+            "Mandi arrival: Check the 'Arrival Data' at your local Mandi before carrying your load.",
+            "Stock verification: Regularly inspect stored bags for signs of leakage or spoilage."
+        ],
+        "safety_warning": "Ensure proper ventilation in storage areas to prevent carbon dioxide buildup.",
+        "closing": "Do you need info on local cold storage facilities?"
+    },
+    "IRRIGATION_SCHEDULE_GUIDE": {
+        "title": "Water Scheduling & Timing",
+        "points": [
+            "Best time: Irrigate early morning or late evening to reduce evaporation loss.",
+            "Crop stage: Grains need maximum water during the 'Milking' and 'Grain filling' stages.",
+            "Soil moisture: Dig 4-6 inches; if soil forms a ball, it has enough moisture.",
+            "Frequency: Sandy soils need frequent shallow watering; clay soils need deep infrequent watering.",
+            "Weather sync: Skip irrigation if rain is forecasted within 24 hours."
+        ],
+        "safety_warning": "Over-irrigation leads to root rot and nutrient leaching.",
+        "closing": "Which soil type do you have in your field?"
+    },
+    "IRRIGATION_TECH_GUIDE": {
+        "title": "Micro-Irrigation Tech",
+        "points": [
+            "Drip Irrigation: Best for horticulture crops; saves up to 50% water.",
+            "Sprinklers: Efficient for close-growing crops like groundnut and wheat.",
+            "Fertigation: Apply fertilizers through the drip system for 90% efficiency.",
+            "Pressure check: Clean filters regularly to prevent clogging in drip emitters.",
+            "Automation: Use moisture sensors to automate pump operations."
+        ],
+        "safety_warning": "Ensure the pump is grounded properly to avoid electric shocks.",
+        "closing": "Are you interested in installing a drip system?"
+    },
+    "PEST_SYMPTOMS_GUIDE": {
+        "title": "Pest & Disease Identification",
+        "points": [
+            "Leaf check: Look for holes, yellowing, or curling - these are early signs of attack.",
+            "Stem inspection: Check for tunneling or sawdust-like deposits (borers).",
+            "Root health: Wilting plants often indicate root-based pests or soil-borne fungi.",
+            "Egg clusters: Check the underside of leaves for moth egg patches.",
+            "Sticky traps: Use yellow sticky traps to identify the type of flying insects present."
+        ],
+        "safety_warning": "Correct identification is mandatory before applying any pesticide.",
+        "closing": "Can you describe the damage you are seeing?"
+    },
+    "PEST_CHEMICAL_GUIDE": {
+        "title": "Pesticide & Spray Guidance",
+        "points": [
+            "Mixing: Always add pesticide to water, not water to pesticide.",
+            "Nozzle choice: Use hollow cone nozzles for insecticides and flat fan for herbicides.",
+            "Weather check: Never spray during high winds or if rain is expected soon.",
+            "Safe distance: Keep a 'buffer zone' away from water bodies and livestock areas.",
+            "Correct dose: Follow the label strictly; more chemical does NOT mean better control."
+        ],
+        "safety_warning": "Wear a mask, gloves, and full-cover clothing when spraying chemicals.",
+        "closing": "Have you used any chemicals on this crop yet?"
+    },
+    "WEATHER_RISK_GUIDE": {
+        "title": "Climate Risk & Protection",
+        "points": [
+            "Frost alert: Irrigate the field lightly or use smoke (mulching) to raise temperature locally.",
+            "Heatwave: Use shade nets or increase irrigation frequency to cool the soil.",
+            "Drought prep: Use mulch (straw or plastic) to keep moisture in the soil longer.",
+            "Storm safety: Secure equipment and ensure proper drainage to prevent waterlogging.",
+            "Risk mapping: Plant early-maturing varieties in areas prone to late-season drought."
+        ],
+        "safety_warning": "Never handle metal tools or stay in open fields during lightning.",
+        "closing": "Are you expecting extreme weather this week?"
+    },
+    "SOIL_TEST_PH_GUIDE": {
+        "title": "Soil Testing & pH Management",
+        "points": [
+            "Sampling: Collect soil from 8-10 random spots at a 'V' shape depth of 6 inches.",
+            "Optimal pH: Most crops thrive in 6.0 to 7.0 pH; check your test report.",
+            "Acidic Soil: Apply Lime (calcium carbonate) to raise pH if soil is too acidic.",
+            "Alkaline Soil: Apply Gypsum or sulfur to lower pH if soil is too alkaline.",
+            "Timing: Test soil every 2 years before the main sowing season."
+        ],
+        "safety_warning": "Soil pH directly affects how much fertilizer your crop can actually absorb.",
+        "closing": "Do you have a recent soil test report?"
+    },
+    "SOIL_NUTRIENT_GUIDE": {
+        "title": "Nutrient Deficiency Guide",
+        "points": [
+            "Nitrogen (N): Yellowing starting from bottom leaves (lower canopy).",
+            "Phosphorus (P): Purple or dark reddish tint on leaves; stunted growth.",
+            "Potassium (K): Scorched or brown leaf edges; weak stems.",
+            "Zinc (Zn): White patches or 'interveinal chlorosis' in young leaves.",
+            "NPK Balance: Always use a balanced ratio based on your specific crop needs."
+        ],
+        "safety_warning": "Wait for 15 days after lime application before adding nitrogen fertilizers.",
+        "closing": "Are your leaves turning yellow or purple?"
+    },
+    "CROP_INTERCROP_GUIDE": {
+        "title": "Intercropping & Mixed Farming",
+        "points": [
+            "Benefit: Reduces risk; if one crop fails due to market or pest, the other survives.",
+            "Resource use: Deep-rooted crops can be grown with shallow-rooted ones (e.g., Maize + Moong).",
+            "Pest control: Some intercrops act as 'trap crops' (e.g., Marigold with Tomato).",
+            "Soil health: Legumes (Beans/Pulses) fix nitrogen for the main crop (e.g., Sugarcane + Soy).",
+            "Space management: Utilize the empty space between rows efficiently."
+        ],
+        "safety_warning": "Choose companion crops that do not compete for the same nutrients.",
+        "closing": "What is the main crop you are growing?"
+    },
+    "CROP_YIELD_GUIDE": {
+        "title": "Yield Improvement Tactics",
+        "points": [
+            "Optimal Spacing: Avoid overcrowding; enough sunlight must reach every plant.",
+            "Seed treatment: Treat seeds with Bio-fertilizers (Azotobacter) to boost early growth.",
+            "Precision feeding: Apply fertilizers at the active root zone, not just on the surface.",
+            "Timely weeding: Competition from weeds can reduce yield by up to 40%.",
+            "Pollination: Encourage bees; avoid toxic sprays during the peak flowering stage."
+        ],
+        "safety_warning": "Higher yields require balanced nutrition, not just more Nitrogen.",
+        "closing": "Are you satisfied with last year's harvest yield?"
+    },
+    "GENERAL_ORGANIC_GUIDE": {
+        "title": "Organic & Natural Farming",
+        "points": [
+            "Foundations: Replace chemical fertilizers with Jeevamrut or well-decayed manure.",
+            "Pest Management: Use Neem oil, Brahma-astra, or Dashaparni ark for insect control.",
+            "Certification: If selling as organic, maintain records for at least 3 years.",
+            "Zero Budget: Focus on low-cost inputs made directly on the farm.",
+            "Soil Biology: Mulching is essential to keep the soil microorganisms active."
+        ],
+        "safety_warning": "Transitioning from chemical to organic takes 3 years for full soil recovery.",
+        "closing": "Are you interested in certified organic farming?"
+    },
+    "GENERAL_RULES_GUIDE": {
+        "title": "Farming Dos and Don'ts",
+        "points": [
+            "DO: Keep a farm record book for expenses, rains, and harvest dates.",
+            "DO: Inspect your field daily for early signs of trouble.",
+            "DON'T: Burn crop residues; it kills beneficial bacteria and pollutes the air.",
+            "DON'T: Use the same crop in the same field year after year.",
+            "DO: Wear protective gear when handling any farm inputs."
+        ],
+        "safety_warning": "Farm safety is family safety; keep chemicals away from children.",
+        "closing": "Would you like a daily inspection checklist?"
+    },
+    "REFUSAL_GENERAL": {
+        "title": "Module Redirect: General Farming",
+        "points": [
+            "This question is related to General Farming concepts.",
+            "Please select the **General Farming** option in the menu to get an answer.",
+            "I only answer the topics active in the current module."
+        ],
+        "safety_warning": "Topic accuracy is essential for correct farming advice.",
+        "closing": "Would you like to switch to General Farming now?"
+    },
+    "REFUSAL_CROP_MANAGEMENT": {
+        "title": "Module Redirect: Crop Management",
+        "points": [
+            "This question is related to Crop Management (Sowing, Harvest, etc.).",
+            "Please select the **Crop Management** option in the menu to get a detailed answer.",
+            "Each module is strictly separated for precision."
+        ],
+        "safety_warning": "Switching to the correct module ensures you get the best yield advice.",
+        "closing": "Shall we move to Crop Management?"
+    },
+    "REFUSAL_SOIL": {
+        "title": "Module Redirect: Soil Health",
+        "points": [
+            "This question belongs to Soil Health and Testing.",
+            "Please switch to the **Soil Health** module for this information.",
+            "I provide specialized guidance only within the selected category."
+        ],
+        "safety_warning": "Soil health is the foundation of farming success.",
+        "closing": "Would you like to check the Soil Health module?"
+    },
+    "REFUSAL_WEATHER": {
+        "title": "Module Redirect: Weather Impact",
+        "points": [
+            "This question is about Weather and Rainfall impact.",
+            "Please select the **Weather Impact** option to continue this discussion.",
+            "I cannot mix weather data with other modules for safety reasons."
+        ],
+        "safety_warning": "Always check the latest weather forecast before major field work.",
+        "closing": "Redirect to Weather Impact?"
+    },
+    "REFUSAL_MARKET": {
+        "title": "Module Redirect: Market Prices",
+        "points": [
+            "This question is related to Market Prices or Profits.",
+            "Please select the **Market Prices** option to see the latest trends.",
+            "Financial advice is restricted to the Market module."
+        ],
+        "safety_warning": "Market prices change daily; ensure you are in the right module for current data.",
+        "closing": "Switch to Market Prices now?"
+    },
+    "REFUSAL_PESTS": {
+        "title": "Module Redirect: Pest Control",
+        "points": [
+            "This question is about Pests, Insects, or Diseases.",
+            "Please select the **Pest Control** option for specialized guidance.",
+            "Safety protocols for pesticides are only discussed in that module."
+        ],
+        "safety_warning": "Correct pest identification is critical before applying any sprays.",
+        "closing": "Need to check Pest Control?"
+    },
+    "REFUSAL_IRRIGATION": {
+        "title": "Module Redirect: Irrigation",
+        "points": [
+            "This question is related to Irrigation and Water needs.",
+            "Please select the **Irrigation** option to get the best water scheduling advice.",
+            "Precision watering leads to better crops."
+        ],
+        "safety_warning": "Avoid over-irrigation to prevent root rot and nutrient loss.",
+        "closing": "Go to Irrigation module?"
+    },
+    "REFUSAL_EQUIPMENT": {
+        "title": "Module Redirect: Equipment",
+        "points": [
+            "This question is about Farm Tools and Machinery.",
+            "Please select the **Equipment** option to get advice on tools.",
+            "Machinery maintenance is covered in the Equipment module."
+        ],
+        "safety_warning": "Machine safety is our top priority.",
+        "closing": "Continue in Equipment module?"
+    },
+    "COMMON_MISTAKES_GUIDE": {
+        "title": "Common Farming Mistakes to Avoid",
+        "points": [
+            "Over-irrigation damages roots and increases disease.",
+            "Excessive chemicals increase costs and harm soil health.",
+            "Ignoring soil health by not adding organic matter.",
+            "Not observing crops regularly - miss early pest/disease signs.",
+            "Using poor quality or uncertified seeds reduces yield.",
+            "Not following recommended planting time exposes crops to bad weather.",
+            "Not keeping records makes improving future decisions difficult."
+        ]
+    },
+    "SUSTAINABLE_FARMING_GUIDE": {
+        "title": "Sustainable Farming Practices",
+        "points": [
+            "Protect soil health with organic matter and minimal chemicals.",
+            "Use water efficiently based on crop need and soil type.",
+            "Apply balanced inputs - use only what's required.",
+            "Practice crop diversity and rotation for pest control and fertility.",
+            "Reduce chemical use to protect environment and beneficial organisms.",
+            "Maintain economic sustainability by reducing unnecessary costs.",
+            "Learn and adapt practices to local climate and soil conditions."
+        ]
+    },
+    "CLIMATE_AWARENESS_GUIDE": {
+        "title": "How Climate Affects Farming",
+        "points": [
+            "Rainfall: Too little causes drought; too much causes waterlogging.",
+            "Temperature: Each crop has optimal range; extremes cause stress.",
+            "Humidity: High humidity increases fungal diseases and pests.",
+            "Climate affects soil moisture and nutrient availability.",
+            "Unpredictable weather increases farming risks.",
+            "Adopt climate-smart practices: crop diversity, water harvesting, soil conservation.",
+            "Regular monitoring helps adapt to changing weather patterns."
+        ]
+    },
+    "INPUT_COST_MANAGEMENT_GUIDE": {
+        "title": "Reducing Input Costs Safely",
+        "points": [
+            "Plan properly - choose crops suitable for your soil and climate.",
+            "Use quality seeds for better germination and reduced re-sowing.",
+            "Apply fertilizers only when required - excess wastes money.",
+            "Reduce pesticide dependency through observation and prevention.",
+            "Manage water efficiently to save electricity and protect crops.",
+            "Use organic and local resources (compost, manure) to reduce external inputs.",
+            "Keep simple records to identify unnecessary spending."
+        ]
+    },
+    "RICE_GUIDE": {
+        "title": "Rice (Paddy) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe for consumption.",
+            "CLIMATE: Warm and humid (20-35°C). Needs 100-200cm rainfall.",
+            "SEASON: Kharif (Jun-Jul sowing) and Rabi (Oct-Nov sowing).",
+            "SOIL: Best in Clay or Clay Loam. pH 5.5-7.5.",
+            "LAND: Lowland fields, flat land that can hold water.",
+            "DURATION: Takes 110-150 days to grow and harvest.",
+            "IRRIGATION: Flood irrigation (2-5cm standing water).",
+            "FERTILIZER: FYM (5-10t/ha) + NPK (120:60:40).",
+            "PROFIT: Best in Rabi (less pests, better market price)."
+        ]
+    },
+    "WHEAT_GUIDE": {
+        "title": "Wheat Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe. (Note: Contains gluten).",
+            "CLIMATE: Cool and dry (10-25°C). Ripening needs warm weather.",
+            "SEASON: Rabi (Winter) crop. Sown Oct-Nov, Harvested Mar-Apr.",
+            "SOIL: Loam or Clay Loam is best. pH 6.0-7.5.",
+            "LAND: Flat, well-drained upland fields.",
+            "DURATION: Takes 110-140 days to grow.",
+            "IRRIGATION: Sprinkler or light flood. Critical at crown root stage.",
+            "FERTILIZER: FYM (5-8t/ha) + NPK (120:60:40).",
+            "PROFIT: Best when sown early in October for higher yield."
+        ]
+    },
+    "MAIZE_GUIDE": {
+        "title": "Maize (Corn) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe. (Caution: Spoiled/moldy maize can be toxic).",
+            "CLIMATE: Warm climate (18-30°C). Needs bright sunlight.",
+            "SEASON: Kharif (Jun-Jul), Rabi (Oct-Nov), Summer (Jan-Feb).",
+            "SOIL: Sandy Loam or Loam. Avoid waterlogged clay. pH 5.5-7.5.",
+            "LAND: Well-drained upland, flat or gentle slope.",
+            "DURATION: Takes 90-120 days depending on variety.",
+            "IRRIGATION: Furrow or Drip irrigation is best for high yield.",
+            "FERTILIZER: FYM (5-10t/ha) + NPK (120:60:40).",
+            "PROFIT: Kharif for feed/industry; Summer sweet corn for high price."
+        ]
+    },
+    "SORGHUM_GUIDE": {
+        "title": "Sorghum (Jowar) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Grain is safe. (Caution: Young green leaves can be toxic to animals).",
+            "CLIMATE: Warm & dry (25-35°C). Very drought tolerant.",
+            "SEASON: Kharif (rainfed) and Rabi (post-monsoon).",
+            "SOIL: Best in Black Cotton soil or Clay Loam. pH 5.5-8.5.",
+            "LAND: Dryland fields with good drainage.",
+            "DURATION: Takes 95-120 days to mature.",
+            "IRRIGATION: Mostly rainfed; furrow irrigation if needed.",
+            "FERTILIZER: FYM (5t/ha) + NPK (80:40:40).",
+            "PROFIT: Rabi Sorghum has better grain quality and higher price."
+        ]
+    },
+    "BAJRA_GUIDE": {
+        "title": "Pearl Millet (Bajra) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Grain is safe for humans.",
+            "CLIMATE: Hot & dry (25-40°C). Needs 30-60cm rainfall.",
+            "SEASON: Kharif (main) and Summer (irrigated).",
+            "SOIL: Sandy soil or Sandy Loam. pH 5.0-8.5.",
+            "LAND: Dry upland, light-textured soils with good drainage.",
+            "DURATION: Fast-growing, takes 80-100 days.",
+            "IRRIGATION: Mostly rainfed; light furrow if irrigated.",
+            "FERTILIZER: FYM (5t/ha) + NPK (60:40:20).",
+            "PROFIT: Kharif Bajra has low input cost and stable prices."
+        ]
+    },
+    "RAGI_GUIDE": {
+        "title": "Finger Millet (Ragi) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe and highly nutritious.",
+            "CLIMATE: Warm climate (20-35°C). Drought hardy.",
+            "SEASON: Kharif (main) and Rabi (irrigated).",
+            "SOIL: Red soil, Loam, or Sandy Loam. pH 5.5-7.5.",
+            "LAND: Dry upland, gentle slopes, well-drained.",
+            "DURATION: Takes 100-120 days to mature.",
+            "IRRIGATION: Mostly rainfed; light furrow at tillering/flowering.",
+            "FERTILIZER: FYM (5t/ha) + NPK (40:30:20).",
+            "PROFIT: High health demand ensures stable market prices."
+        ]
+    },
+    "BARLEY_GUIDE": {
+        "title": "Barley Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe.",
+            "CLIMATE: Cool & dry (12-25°C). Tolerates salinity better than wheat.",
+            "SEASON: Rabi (Winter) crop. Sown Oct-Nov.",
+            "SOIL: Loam, Sandy Loam, or light Clay Loam. pH 6.0-8.5.",
+            "LAND: Well-drained upland, flat fields.",
+            "DURATION: Takes 90-120 days.",
+            "IRRIGATION: Mostly rainfed; 1-2 light irrigations if needed.",
+            "FERTILIZER: FYM (5t/ha) + NPK (60:40:20).",
+            "PROFIT: High quality grain fetches premium for malting."
+        ]
+    },
+    "OATS_GUIDE": {
+        "title": "Oats Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe. (Note: Check for cross-contamination if gluten-sensitive).",
+            "CLIMATE: Cool & moist (10-25°C). Needs 60-100cm rainfall.",
+            "SEASON: Rabi (Winter) crop. Sown Oct-Nov.",
+            "SOIL: Loam, Clay Loam, or Sandy Loam. pH 5.5-7.5.",
+            "LAND: Well-drained flat land, upland fields.",
+            "DURATION: 90-120 days for grain; 60-75 days for fodder.",
+            "IRRIGATION: Sprinkler or light flood. Needs moisture for biomass.",
+            "FERTILIZER: FYM (5t/ha) + NPK (60-80:40:20).",
+            "PROFIT: High demand as health food and dairy fodder."
+        ]
+    },
+    "RYE_GUIDE": {
+        "title": "Rye Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Grain safe. (Caution: Ergot fungus can be toxic).",
+            "CLIMATE: Cool to cold (5-20°C). Very frost tolerant.",
+            "SEASON: Rabi (Winter) crop. Sown Oct-Nov.",
+            "SOIL: Sandy loam or Loam. Tolerates poor, acidic soils. pH 5.0-7.5.",
+            "LAND: Upland fields, well-drained, grows on marginal land.",
+            "DURATION: Takes 120-150 days.",
+            "IRRIGATION: Mostly rainfed; 1-2 light irrigations if needed.",
+            "FERTILIZER: FYM (5t/ha) + NPK (60-80:40:20).",
+            "PROFIT: Low input cost makes it profitable on poor soils."
+        ]
+    },
+    "SUGARCANE_GUIDE": {
+        "title": "Sugarcane Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe. (Caution: Spoiled juice can cause illness).",
+            "CLIMATE: Tropical/Subtropical (20-35°C). Needs long sunny period.",
+            "SEASON: Annual (10-15 months). Sown Spring or Autumn.",
+            "SOIL: Deep Loam, Clay Loam, or Alluvial. pH 6.5-7.5.",
+            "LAND: Deep fertile land, flat with good drainage.",
+            "DURATION: Takes 300-450 days to mature.",
+            "IRRIGATION: Furrow or Drip. Drip is best for yield.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (250:60:120).",
+            "PROFIT: Autumn planting gives higher cane yield and recovery."
+        ]
+    },
+    "POTATO_GUIDE": {
+        "title": "Potato Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Tuber safe when cooked; Green parts are toxic).",
+            "CLIMATE: Cool climate (15-25°C). Chilly nights best for tubers.",
+            "SEASON: Rabi (Winter) in plains; Summer in hills.",
+            "SOIL: Sandy Loam or Loam. Avoid heavy clay. pH 5.0-6.5.",
+            "LAND: Well-drained upland, loose soil required.",
+            "DURATION: Fast-growing, takes 90-120 days.",
+            "IRRIGATION: Furrow or Drip. Maintain consistent moisture.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (150:80:120).",
+            "PROFIT: High price in early winter or off-season hill crops."
+        ]
+    },
+    "TOMATO_GUIDE": {
+        "title": "Tomato Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Fruit safe; Leaves/stems are toxic).",
+            "CLIMATE: Moderate warm (18-30°C). Needs bright sunlight.",
+            "SEASON: Kharif, Rabi, and Summer (all seasons).",
+            "SOIL: Sandy Loam or Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland, raised beds are best.",
+            "DURATION: Takes 60-90 days after transplanting.",
+            "IRRIGATION: Drip irrigation best for disease control.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (120:60:60).",
+            "PROFIT: Off-season crops fetch very high prices."
+        ]
+    },
+    "ONION_GUIDE": {
+        "title": "Onion Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ TOXIC TO PETS. (Safe for humans).",
+            "CLIMATE: Cool to moderate (13-25°C). Dry for maturity.",
+            "SEASON: Kharif, Rabi, and Summer.",
+            "SOIL: Sandy Loam or Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland, loose soil for bulb expansion.",
+            "DURATION: Takes 90-120 days depending on variety.",
+            "IRRIGATION: Drip or Furrow. Stop 10 days before harvest.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (120:50:50).",
+            "PROFIT: Late Kharif/Summer crops store well and sell higher."
+        ]
+    },
+    "GARLIC_GUIDE": {
+        "title": "Garlic Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ TOXIC TO PETS. (Safe for humans).",
+            "CLIMATE: Cool growing season (12-25°C). Dry at maturity.",
+            "SEASON: Rabi (Winter) crop. Sown Oct-Nov.",
+            "SOIL: Sandy Loam or Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland with loose, rich soil.",
+            "DURATION: Takes 120-150 days to mature.",
+            "IRRIGATION: Furrow or Drip. Stop 15 days before harvest.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (100:50:50).",
+            "PROFIT: Long storage life and high export/medicinal demand."
+        ]
+    },
+    "CHILLI_GUIDE": {
+        "title": "Chilli / Pepper Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Fruits are safe. (Caution: Very hot types cause irritation).",
+            "CLIMATE: Warm climate (18-35°C). Needs bright sunlight.",
+            "SEASON: Kharif, Rabi, and Summer.",
+            "SOIL: Sandy Loam or Loam. Avoid waterlogged clay. pH 6.0-7.0.",
+            "LAND: Well-drained upland, raised beds preferred.",
+            "DURATION: Green harvest 45-60 days; Dry harvest 90-150 days.",
+            "IRRIGATION: Drip irrigation best for yield; avoid water stress.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (120:60:60).",
+            "PROFIT: High price for dry chili (Rabi) and off-season green chili."
+        ]
+    },
+    "CABBAGE_GUIDE": {
+        "title": "Cabbage Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe.",
+            "CLIMATE: Cool climate (15-20°C). Needs cool nights.",
+            "SEASON: Rabi (Winter) in plains; Summer in hills.",
+            "SOIL: Sandy Loam, Loam, or Clay Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland, flat or raised beds.",
+            "DURATION: Takes 90-120 days from transplanting.",
+            "IRRIGATION: Drip or Furrow. Uniform moisture for head quality.",
+            "FERTILIZER: FYM (15-20t/ha) + NPK (150:60:60).",
+            "PROFIT: Early winter and off-season hill crops fetch high prices."
+        ]
+    },
+    "CAULIFLOWER_GUIDE": {
+        "title": "Cauliflower Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe. (Caution: Discolored curds are unsafe).",
+            "CLIMATE: Cool climate (15-20°C). Heat affects curd quality.",
+            "SEASON: Rabi (Winter) in plains; Summer in hills.",
+            "SOIL: Sandy Loam, Loam, or Clay Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland, flat or raised beds.",
+            "DURATION: Takes 80-120 days depending on variety.",
+            "IRRIGATION: Drip best for uniform curds; avoid waterlogging.",
+            "FERTILIZER: FYM (15-20t/ha) + NPK (150:60:60).",
+            "PROFIT: High market value for early/late and off-season crops."
+        ]
+    },
+    "SPINACH_GUIDE": {
+        "title": "Spinach Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Leaves safe. (Caution: Oxalates high; avoid excess in kidney patients).",
+            "CLIMATE: Cool climate (10-20°C). Bolting occurs in heat.",
+            "SEASON: Winter crop (main); Summer in cool hills.",
+            "SOIL: Loam or Sandy Loam. pH 6.0-7.5.",
+            "LAND: Well-drained upland, flat beds, fine soil tilth.",
+            "DURATION: Fast harvest in 25-40 days; Multiple cuttings possible.",
+            "IRRIGATION: Light, frequent irrigation; sprinkler best.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (80:40:40).",
+            "PROFIT: Quick returns and fast harvest cycle for high cash flow."
+        ]
+    },
+    "BANANA_GUIDE": {
+        "title": "Banana Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Ripe fruit safe; Raw green must be cooked).",
+            "CLIMATE: Tropical/Subtropical (20-35°C). Needs high humidity.",
+            "SEASON: Year-round planting/harvest with irrigation.",
+            "SOIL: Deep Loam, Alluvial, or Sandy Loam. pH 6.5-7.5.",
+            "LAND: Deep fertile land, flat or gentle slopes, wind-protected.",
+            "DURATION: Long-term crop, takes 300-450 days (10-15 months).",
+            "IRRIGATION: Drip best for yield; Basin traditional. Critical at bunching.",
+            "FERTILIZER: FYM (20-25t/ha) + NPK (250:80:300).",
+            "PROFIT: High price for winter harvest and off-season markets."
+        ]
+    },
+    "MANGO_GUIDE": {
+        "title": "Mango Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Ripe flesh safe; Sap/peel can irritate).",
+            "CLIMATE: Tropical/Subtropical (24-35°C). Needs dry flowering spell.",
+            "SEASON: Perennial tree (Fruity in Summer; Flower in Winter).",
+            "SOIL: Deep Loam, Alluvial, or Sandy Loam. pH 5.5-7.5.",
+            "LAND: Deep fertile well-drained land, flat or gentle slopes.",
+            "DURATION: Bearing starts 3-5 years (grafted). Fruit dev: 90-120 days.",
+            "IRRIGATION: Drip best; Avoid excess water during flowering.",
+            "FERTILIZER: FYM (50kg/tree) + NPK (750g N : 500g P : 750g K).",
+            "PROFIT: High export demand for early/late varieties."
+        ]
+    },
+    "APPLE_GUIDE": {
+        "title": "Apple Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Flesh safe; Seeds contain cyanide).",
+            "CLIMATE: Temperate (15-25°C). Needs winter chilling (0-7°C).",
+            "SEASON: Perennial tree (Harvested Aug-Oct).",
+            "SOIL: Loam or Sandy Loam. pH 5.5-6.5.",
+            "LAND: Hill slopes or gentle slopes, good air circulation.",
+            "DURATION: Bearing starts 3-5 years. Fruit dev: 120-150 days.",
+            "IRRIGATION: Drip best; Critical during flowering and fruit enlargement.",
+            "FERTILIZER: FYM (50kg/tree) + NPK (800g N : 500g P : 800g K).",
+            "PROFIT: Late-season varieties have better storage and export value."
+        ]
+    },
+    "GROUNDNUT_GUIDE": {
+        "title": "Groundnut (Peanut) Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe. (Caution: Moldy nuts have toxic aflatoxin).",
+            "CLIMATE: Warm climate (20-30°C). Needs 50-100cm rainfall.",
+            "SEASON: Kharif (main), Rabi and Summer.",
+            "SOIL: Sandy Loam or Light Loam. pH 6.0-7.0.",
+            "LAND: Well-drained upland, loose soil for pod expansion.",
+            "DURATION: Takes 90-120 days depending on variety.",
+            "IRRIGATION: Rainfed/Furrow. Critical at flowering/pegging.",
+            "FERTILIZER: FYM (5-10t/ha) + NPK (20:50:40). Use Gypsum (250kg/ha).",
+            "PROFIT: Summer groundnut has higher yield and market price."
+        ]
+    },
+    "CASHEW_GUIDE": {
+        "title": "Cashew Detailed Guide",
+        "points": [
+            "SAFETY: ⚠️ PARTLY TOXIC. (Kernel safe after roasting; Raw shell toxic).",
+            "CLIMATE: Tropical (20-35°C). Tolerates coastal winds.",
+            "SEASON: Perennial tree (Harvested Feb-May).",
+            "SOIL: Sandy Loam, Laterite, or Red Coastal soils. pH 5.5-7.0.",
+            "LAND: Upland/Marginal land, gentle slopes, drylands.",
+            "DURATION: Bearing starts 3-4 years (grafted).",
+            "IRRIGATION: Mostly rainfed; drip improves yield during flowering.",
+            "FERTILIZER: FYM (25kg/tree) + NPK (500g N : 250g P : 250g K).",
+            "PROFIT: Highest profit from processed export kernels."
+        ]
+    },
+    "COCONUT_GUIDE": {
+        "title": "Coconut Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Completely safe (Water and meat).",
+            "CLIMATE: Tropical (22-32°C). High humidity & sunlight.",
+            "SEASON: Perennial. Year-round harvest every 30-45 days.",
+            "SOIL: Sandy Loam, Alluvial, or Coastal Sandy soil. pH 5.5-7.5.",
+            "LAND: Coastal plains, river basins, flat or gentle slopes.",
+            "DURATION: Bears in 3-4 yrs (Dwarf) or 6-7 yrs (Tall).",
+            "IRRIGATION: Drip best for yield; Basin traditional.",
+            "FERTILIZER: FYM (50kg/tree) + NPK (500g N : 320g P : 1200g K).",
+            "PROFIT: Tender coconut (summer) and value-added oil/coir products."
+        ]
+    },
+    "WALNUT_GUIDE": {
+        "title": "Walnut Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Kernel safe. (Caution: Green husk contains juglone).",
+            "CLIMATE: Temperate (20-30°C). Needs winter chill (0-7°C).",
+            "SEASON: Perennial tree (Harvested Sep-Oct).",
+            "SOIL: Deep Loam or Sandy Loam. pH 6.0-7.5.",
+            "LAND: Hill slopes or valley floors, deep soil profile.",
+            "DURATION: Bearing starts 5-7 years after planting.",
+            "IRRIGATION: Drip best for nut filling; Avoid waterlogging.",
+            "FERTILIZER: FYM (50kg/tree) + NPK (800g N : 500g P : 800g K).",
+            "PROFIT: Dry kernels have high export demand and value."
+        ]
+    },
+    "ALMOND_GUIDE": {
+        "title": "Almond Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Sweet almond safe. (Caution: Bitter almonds toxic).",
+            "CLIMATE: Temperate (20-30°C). Dry maturity season ideal.",
+            "SEASON: Perennial tree (Harvested Aug-Sep).",
+            "SOIL: Sandy Loam, Loam, or Alluvial. pH 6.0-7.5.",
+            "LAND: Gentle slopes or plains, deep well-drained soil.",
+            "DURATION: Bearing starts 3-4 years (grafted).",
+            "IRRIGATION: Drip best; avoid excess water near harvest.",
+            "FERTILIZER: FYM (40kg/tree) + NPK (700g N : 400g P : 700g K).",
+            "PROFIT: Shelled and graded kernels fetch highest premium."
+        ]
+    },
+    "BERMUDA_GRASS_GUIDE": {
+        "title": "Bermuda Grass Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe for fodder. (Caution: May accumulate nitrates under extreme stress).",
+            "CLIMATE: Warm (25-35°C). Very drought tolerant.",
+            "SEASON: Perennial. Active growth in summer.",
+            "SOIL: Sandy Loam or Loam. Tolerates salinity and poor soils. pH 5.5-8.5.",
+            "LAND: Upland, open sunny areas, pasture bunds.",
+            "DURATION: Harvest in 30-45 days; regrows every 25-30 days.",
+            "IRRIGATION: Rainfed; sprinkler improves fodder yield during dry spells.",
+            "FERTILIZER: FYM (5-10t/ha) + NPK (150:40:40). Nitrogen boosts leaf growth.",
+            "PROFIT: Continuous summer harvest provides steady dairy income."
+        ]
+    },
+    "NAPIER_GRASS_GUIDE": {
+        "title": "Napier (Elephant) Grass Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Safe cut-and-carry fodder. (Caution: Wilt fresh grass for a few hours).",
+            "CLIMATE: Warm & humid (20-35°C). Needs 75-150cm rainfall.",
+            "SEASON: Perennial. Active in summer and monsoon.",
+            "SOIL: Loam, Sandy Loam, or Clay Loam. pH 5.5-8.0.",
+            "LAND: Irrigated upland, flat fields, full sunlight.",
+            "DURATION: First harvest in 60-75 days; then every 45-60 days.",
+            "IRRIGATION: Furrow or Drip. Drip is best for high biomass.",
+            "FERTILIZER: FYM (10-15t/ha) + NPK (300:50:50). High feeders of Nitrogen.",
+            "PROFIT: High-yield fodder ensures major gains in dairy production."
+        ]
+    },
+    "LEMONGRASS_GUIDE": {
+        "title": "Lemongrass Detailed Guide",
+        "points": [
+            "SAFETY: ✅ Leaves safe for tea/meds. (Caution: Avoid direct oil consumption).",
+            "CLIMATE: Tropical/Subtropical (20-35°C). Full sunlight required.",
+            "SEASON: Perennial. Peak oil content in summer/monsoon.",
+            "SOIL: Sandy Loam, Loam, or Laterite. pH 5.0-8.0.",
+            "LAND: Upland fields, slopes, and marginal lands.",
+            "DURATION: First harvest 4-6 months; then every 60-90 days.",
+            "IRRIGATION: Mostly rainfed; drip improves oil yield in dry spells.",
+            "FERTILIZER: FYM (10t/ha) + NPK (100:40:40).",
+            "PROFIT: Steady multi-year income from essential oil extraction."
+        ]
+    },
+    "SOIL_HEALTH_GENERAL": {
+        "title": "Soil Health Advice",
+        "points": [
+            "Use organic manure to increase soil vitality",
+            "Avoid working on soil when it is too wet",
+            "Test soil nutrients every season"
+        ]
+    },
+    "WEATHER_IMPACT_GENERAL": {
+        "title": "Weather Impact Advisory",
+        "points": [
+            "Check forecast before applying fertilizers",
+            "Ensure proper drainage during heavy rains",
+            "Protect young saplings from high winds"
+        ]
+    },
+    "MARKET_AWARENESS_GENERIC": {
+        "title": "Market Awareness",
+        "points": [
+            "Monitor local mandi prices regularly",
+            "Clean and grade produce before selling",
+            "Avoid panic selling during price drops"
+        ]
+    },
+    "PEST_CONTROL_SAFE": {
+        "title": "Safe Pest Control",
+        "points": [
+            "Use neem oil or sticky traps first",
+            "Encourage beneficial insects like ladybugs",
+            "Rotate crops to break pest lifecycles"
+        ]
+    },
+    "IRRIGATION_GENERAL": {
+        "title": "Irrigation Guidance",
+        "points": [
+            "Irrigate based on soil moisture, not just habit",
+            "Avoid waterlogging to prevent root rot",
+            "Adjust watering after heavy rains"
+        ]
+    },
+    "DEFAULT_ERROR": {
+        "title": "System Notice",
+        "points": [
+            "Information currently unavailable.",
+            "Please consult a local expert."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_JANUARY": {
+        "title": "January Planting Guide (Winter/Rabi)",
+        "points": [
+            "CEREALS: Wheat (Late), Barley, Oats.",
+            "VEGETABLES: Potato, Garlic, Onion, Cabbage, Cauliflower, Spinach.",
+            "FRUITS: Banana, Lemongrass.",
+            "NUTS: Groundnut (South India), Coconut.",
+            "GRASSES: Bermuda Grass.",
+            "SAFETY: ⚠️ Watch for frost damage on young saplings.",
+            "SOIL: Maintain loose tilth for root crops like Garlic.",
+            "IRRIGATION: Light irrigation due to low evaporation.",
+            "PROFIT: High demand for fresh Winter vegetables."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_FEBRUARY": {
+        "title": "February Planting Guide (Late Winter/Spring)",
+        "points": [
+            "CEREALS: Summer Maize (early), Pearl Millet.",
+            "VEGETABLES: Okra, Chilli, Tomato, Brinjal, Watermelon, Muskmelon.",
+            "SUGARCANE: Main planting season begins.",
+            "FRUITS: Mango (Flowering management).",
+            "GRASSES: Napier Grass, Bermuda Grass.",
+            "SAFETY: ✅ Good time for transplanting summer crops.",
+            "SOIL: Add organic manure before spring sowing.",
+            "IRRIGATION: Increase frequency as temperature rises.",
+            "PROFIT: Early summer vegetables fetch premium prices."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_MARCH": {
+        "title": "March Planting Guide (Spring/Summer)",
+        "points": [
+            "CEREALS: Sorghum (Summer), Pearl Millet (Bajra), Maize.",
+            "VEGETABLES: Bitter gourd, Bottle gourd, Pumpkin, Cluster bean.",
+            "FRUITS: Watermelon, Muskmelon (for peak summer harvest).",
+            "GRASSES: Napier Grass, Guinea Grass.",
+            "SAFETY: ⚠️ Protect crops from early heat waves.",
+            "SOIL: Use mulch to conserve soil moisture.",
+            "IRRIGATION: Regular watering required (early morning or evening).",
+            "PROFIT: Summer melons have very high demand in May-June."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_APRIL": {
+        "title": "April Planting Guide (Peak Summer)",
+        "points": [
+            "CEREALS: Summer Pearl Millet, Short-duration Maize.",
+            "VEGETABLES: Turmeric (early), Ginger, Summer pulses.",
+            "FRUITS: Banana (with high water), Mango (Protect fruit from hail).",
+            "GRASSES: Napier Grass (very productive with water).",
+            "SAFETY: ⚠️ Avoid fertilizer application during midday heat.",
+            "SOIL: Frequent hoeing to break soil capillaries.",
+            "IRRIGATION: Drip irrigation highly recommended to save water.",
+            "PROFIT: Green fodder (Napier) fetches high prices in summer."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_MAY": {
+        "title": "May Planting Guide (Pre-Monsoon)",
+        "points": [
+            "CEREALS: Cotton (Irrigated), Rice (Nursery preparation).",
+            "NUTS: Groundnut (Pre-monsoon sowing).",
+            "VEGETABLES: Ginger, Turmeric, Yam.",
+            "FRUITS: Banana, Lemongrass.",
+            "GRASSES: Fodder Maize, Cowpea.",
+            "SAFETY: ✅ Prepare pits for new fruit tree plantations.",
+            "SOIL: Deep summer plowing to kill soil-borne pests.",
+            "IRRIGATION: Critical for nursery survival.",
+            "PROFIT: Early Kharif crops stay ahead of market glut."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_JUNE": {
+        "title": "June Planting Guide (Monsoon/Kharif)",
+        "points": [
+            "CEREALS: Rice (Main), Maize, Sorghum, Pearl Millet (Bajra).",
+            "VEGETABLES: Chilli, Tomato, Brinjal (Nursery/Transplant).",
+            "SUGARCANE: Late planting (Adsali type).",
+            "NUTS: Groundnut (Main Kharif).",
+            "GRASSES: All fodder grasses thrive with rain.",
+            "SAFETY: ⚠️ Ensure zero waterlogging after first rains.",
+            "SOIL: Rich in organic matter for fast Kharif growth.",
+            "IRRIGATION: Supplement rain with irrigation if dry spell occurs.",
+            "PROFIT: High yield from staple grains (Rice/Maize)."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_JULY": {
+        "title": "July Planting Guide (Peak Monsoon)",
+        "points": [
+            "CEREALS: Rice (Transplanting), Millets, Maize.",
+            "VEGETABLES: Beans, Okra, Rain-fed vegetables.",
+            "FRUITS: Mango, Guava, Sapota (New tree planting).",
+            "GRASSES: Napier, Bermuda (Rapid biomass growth).",
+            "SAFETY: ⚠️ Watch for fungal diseases in high humidity.",
+            "SOIL: Ensure proper drainage to avoid root rot.",
+            "IRRIGATION: Minimal requirement; focus on drainage.",
+            "PROFIT: High survival rate for new fruit orchards."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_AUGUST": {
+        "title": "August Planting Guide (Mid-Monsoon)",
+        "points": [
+            "CEREALS: Short-duration pulses, Fodder crops.",
+            "VEGETABLES: Cabbage (Early), Cauliflower (Early), Chilli (Late).",
+            "FRUITS: Tree maintenance and pruning.",
+            "NUTS: Coconut maintenance (Fertilizer application).",
+            "GRASSES: Continuous fodder harvest.",
+            "SAFETY: ⚠️ Monitor for pest outbreaks after rains.",
+            "SOIL: Top-dress Nitrogen fertilizers.",
+            "IRRIGATION: Only if a long dry spell occurs.",
+            "PROFIT: Early winter vegetables fetch high early-market prices."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_SEPTEMBER": {
+        "title": "September Planting Guide (Late Monsoon)",
+        "points": [
+            "CEREALS: Toria (Yellow Mustard), Early Mustard.",
+            "VEGETABLES: Potato (Early), Onion (Kharif), Radish, Carrot.",
+            "FRUITS: Banana (Post-monsoon planting).",
+            "NUTS: Cashew maintenance.",
+            "GRASSES: Harvest and store fodder.",
+            "SAFETY: ✅ Best time for vegetable nursery preparation.",
+            "SOIL: Prepare land as monsoon recedes.",
+            "IRRIGATION: Maintain consistent moisture for early tubers.",
+            "PROFIT: Early Potato harvest in November is very profitable."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_OCTOBER": {
+        "title": "October Planting Guide (Post-Monsoon/Rabi)",
+        "points": [
+            "CEREALS: Wheat (Main), Barley, Mustard, Chickpea.",
+            "VEGETABLES: Garlic, Onion, Potato (Main), Peas, Broccoli.",
+            "FRUITS: Apple (Post-harvest care), Banana.",
+            "NUTS: Almond, Walnut (Maintenance).",
+            "GRASSES: Oats (Fodder), Rye.",
+            "SAFETY: ✅ Ideal moisture for Rabi sowing.",
+            "SOIL: Fine tilth required for small seeds like Mustard.",
+            "IRRIGATION: Start regular irrigation cycles.",
+            "PROFIT: Wheat and Garlic are long-term profitable staples."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_NOVEMBER": {
+        "title": "November Planting Guide (Peak Winter)",
+        "points": [
+            "CEREALS: Wheat (Late), Barley, Oats.",
+            "VEGETABLES: Cabbage, Cauliflower, Spinach, Fenugreek.",
+            "FRUITS: Strawberry (Flowering), Apple (Dormancy care).",
+            "NUTS: Coconut, Walnut (Maintenance).",
+            "GRASSES: Berseem fodder, Rye.",
+            "SAFETY: ⚠️ Protect young seedlings from early morning dew/cold.",
+            "SOIL: Mulch winter vegetables to maintain warmth.",
+            "IRRIGATION: Moderate; avoid waterlogging in cool weather.",
+            "PROFIT: High consistency in Winter leafy green prices."
+        ]
+    },
+    "MONTHLY_PLANTING_GUIDE_DECEMBER": {
+        "title": "December Planting Guide (Winter)",
+        "points": [
+            "CEREALS: Wheat (Late variety), Barley.",
+            "VEGETABLES: Tomato (Late), Chilli (Nursery), Spinach.",
+            "FRUITS: Citrus maintenance, Apple (Winter pruning).",
+            "NUTS: Almond (Pink bud stage care).",
+            "GRASSES: Oats for dairy fodder.",
+            "SAFETY: ⚠️ High risk of frost in North India.",
+            "SOIL: Add well-rotted manure to boost winter growth.",
+            "IRRIGATION: Less frequent but deep watering.",
+            "PROFIT: Off-season Tomato and late Wheat fetch good returns."
+        ]
+    }
+}

@@ -1,0 +1,519 @@
+[
+    {
+        "topic": "general",
+        "question": "What is the best time to start farming?",
+        "expected_intent": "planning"
+    },
+    {
+        "topic": "crops",
+        "question": "How to increase yield in wheat?",
+        "expected_intent": "yield_improvement"
+    },
+    {
+        "topic": "soil",
+        "question": "How to improve loamy soil for vegetables?",
+        "expected_intent": "improvement"
+    },
+    {
+        "topic": "weather",
+        "question": "How does heavy rain affect tomato crops?",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "When is the best time to sell onions?",
+        "expected_intent": "selling_time"
+    },
+    {
+        "topic": "pests",
+        "question": "How to control aphids organically?",
+        "expected_intent": "organic_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "How often to water rice in clay soil?",
+        "expected_intent": "schedule"
+    },
+    {
+        "topic": "equipment",
+        "question": "Which equipment is best for small farmers?",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "What are the rules for organic certification?",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "What is the spacing for maize?",
+        "expected_intent": "sowing"
+    },
+    {
+        "topic": "soil",
+        "question": "How to use cow dung as fertilizer?",
+        "expected_intent": "nutrients"
+    },
+    {
+        "topic": "weather",
+        "question": "Protect my crop from frost.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Is prices for paddy going up?",
+        "expected_intent": "price_trends"
+    },
+    {
+        "topic": "pests",
+        "question": "Worm eating my leaves what to do?",
+        "expected_intent": "pest_id"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Drip irrigation benefits for tomato?",
+        "expected_intent": "method"
+    },
+    {
+        "topic": "equipment",
+        "question": "Tractor maintenance tips.",
+        "expected_intent": "maintenance"
+    },
+    {
+        "topic": "general",
+        "question": "Basics of terrace farming.",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "Milking stage in wheat care.",
+        "expected_intent": "growth_stages"
+    },
+    {
+        "topic": "soil",
+        "question": "Testing pH level at home.",
+        "expected_intent": "testing"
+    },
+    {
+        "topic": "weather",
+        "question": "Drought resistant crops.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Where is the nearest cold storage?",
+        "expected_intent": "storage_advice"
+    },
+    {
+        "topic": "pests",
+        "question": "Organic fungus control.",
+        "expected_intent": "organic_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Water quantity for banana plant.",
+        "expected_intent": "water_quantity"
+    },
+    {
+        "topic": "equipment",
+        "question": "Manual weeder for small farmer.",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "Starting a nursery business.",
+        "expected_intent": "planning"
+    },
+    {
+        "topic": "crops",
+        "question": "NPK ratio for paddy.",
+        "expected_intent": "yield_improvement"
+    },
+    {
+        "topic": "soil",
+        "question": "Sandy soil nutrient balance.",
+        "expected_intent": "nutrients"
+    },
+    {
+        "topic": "weather",
+        "question": "Heatwave protection for crops.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Market demand for dragon fruit.",
+        "expected_intent": "selling_time"
+    },
+    {
+        "topic": "pests",
+        "question": "Chemical spray dosage for cotton.",
+        "expected_intent": "chemical_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Sprinkler system cost for 1 acre.",
+        "expected_intent": "method"
+    },
+    {
+        "topic": "equipment",
+        "question": "Power tiller vs tractor for small farms.",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "Sustainable farming tips.",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "Best seeds for rabi season.",
+        "expected_intent": "sowing"
+    },
+    {
+        "topic": "soil",
+        "question": "Soil texture improvement.",
+        "expected_intent": "improvement"
+    },
+    {
+        "topic": "weather",
+        "question": "Monsoon delay impact.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Price of tomato in local market.",
+        "expected_intent": "price_trends"
+    },
+    {
+        "topic": "pests",
+        "question": "Whitefly control in cotton.",
+        "expected_intent": "pest_id"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Intervals for coconut watering.",
+        "expected_intent": "schedule"
+    },
+    {
+        "topic": "equipment",
+        "question": "How to repair a plough?",
+        "expected_intent": "maintenance"
+    },
+    {
+        "topic": "general",
+        "question": "Winter crop planning.",
+        "expected_intent": "seasons"
+    },
+    {
+        "topic": "crops",
+        "question": "Flowering stage in mango management.",
+        "expected_intent": "growth_stages"
+    },
+    {
+        "topic": "soil",
+        "question": "Bio-compost preparation.",
+        "expected_intent": "nutrients"
+    },
+    {
+        "topic": "weather",
+        "question": "Cyclonic storm prep for farms.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Potato price forecast.",
+        "expected_intent": "price_trends"
+    },
+    {
+        "topic": "pests",
+        "question": "Natural pesticide using ginger and garlic.",
+        "expected_intent": "organic_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Water volume for 1 acre wheat.",
+        "expected_intent": "water_quantity"
+    },
+    {
+        "topic": "equipment",
+        "question": "Battery sprayer for small farms.",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "Basics of permaculture.",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "Paddy seedling depth.",
+        "expected_intent": "sowing"
+    },
+    {
+        "topic": "soil",
+        "question": "Alkaline soil treatment.",
+        "expected_intent": "improvement"
+    },
+    {
+        "topic": "weather",
+        "question": "Protecting nursery from heavy rains.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Mango market arrivals.",
+        "expected_intent": "selling_time"
+    },
+    {
+        "topic": "pests",
+        "question": "Safe chemical for fruit borer.",
+        "expected_intent": "chemical_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Frequency for sandy soil crops.",
+        "expected_intent": "schedule"
+    },
+    {
+        "topic": "equipment",
+        "question": "Cleaning seed drill machine.",
+        "expected_intent": "maintenance"
+    },
+    {
+        "topic": "general",
+        "question": "Starting vertical farming.",
+        "expected_intent": "planning"
+    },
+    {
+        "topic": "crops",
+        "question": "Growth stages of maize.",
+        "expected_intent": "growth_stages"
+    },
+    {
+        "topic": "soil",
+        "question": "Vermicompost benefits.",
+        "expected_intent": "nutrients"
+    },
+    {
+        "topic": "weather",
+        "question": "Humidity impact on fungal growth.",
+        "expected_intent": "adaptation"
+    },
+    {
+        "topic": "market",
+        "question": "Cabbage selling time.",
+        "expected_intent": "selling_time"
+    },
+    {
+        "topic": "pests",
+        "question": "Identify black spots on leaves.",
+        "expected_intent": "pest_id"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Trench irrigation for sugarcane.",
+        "expected_intent": "method"
+    },
+    {
+        "topic": "equipment",
+        "question": "Cheap hand tools for weeding.",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "Mixed cropping benefits.",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "Seed rate for mustard.",
+        "expected_intent": "sowing"
+    },
+    {
+        "topic": "soil",
+        "question": "Green manure for paddy fields.",
+        "expected_intent": "nutrients"
+    },
+    {
+        "topic": "weather",
+        "question": "Hailstorm protection.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Price of ginger currently.",
+        "expected_intent": "price_trends"
+    },
+    {
+        "topic": "pests",
+        "question": "Neem cake for soil pests.",
+        "expected_intent": "organic_control"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Water timing for summer crops.",
+        "expected_intent": "schedule"
+    },
+    {
+        "topic": "equipment",
+        "question": "Oil change for diesel pump set.",
+        "expected_intent": "maintenance"
+    },
+    {
+        "topic": "general",
+        "question": "Intercropping in coconut grove.",
+        "expected_intent": "practices"
+    },
+    {
+        "topic": "crops",
+        "question": "Tillering stage in rice.",
+        "expected_intent": "growth_stages"
+    },
+    {
+        "topic": "soil",
+        "question": "Acidity correction in soil.",
+        "expected_intent": "testing"
+    },
+    {
+        "topic": "weather",
+        "question": "Rising temperatures impact on wheat.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "question": "Ginger selling tips.",
+        "expected_intent": "selling_time"
+    },
+    {
+        "topic": "pests",
+        "question": "Aphid infestation signs.",
+        "expected_intent": "pest_id"
+    },
+    {
+        "topic": "irrigation",
+        "question": "Basin irrigation for orchard.",
+        "expected_intent": "method"
+    },
+    {
+        "topic": "equipment",
+        "question": "Options for low cost harvesting.",
+        "expected_intent": "small_farmers"
+    },
+    {
+        "topic": "general",
+        "question": "Crop rotation for beginners.",
+        "expected_intent": "planning"
+    },
+    {
+        "topic": "crops",
+        "question": "Booster for chili flowering.",
+        "expected_intent": "yield_improvement"
+    },
+    {
+        "topic": "soil",
+        "question": "Loam soil enrichment.",
+        "expected_intent": "improvement"
+    },
+    {
+        "topic": "weather",
+        "question": "Protecting cattle during rain.",
+        "expected_intent": "risk_management"
+    },
+    {
+        "topic": "market",
+        "                              "question": "Is it good to store wheat for 3 months?", "expected_intent": "storage_advice"},{
+            "topic": "pests",
+            "question": "Biological control for caterpillars.",
+            "expected_intent": "organic_control"
+        },
+        {
+            "topic": "irrigation",
+            "question": "Daily water requirement for papaya.",
+            "expected_intent": "water_quantity"
+        },
+        {
+            "topic": "equipment",
+            "question": "Maintenance of sprinkler nozzles.",
+            "expected_intent": "maintenance"
+        },
+        {
+            "topic": "general",
+            "question": "Introduction to hydroponics.",
+            "expected_intent": "planning"
+        },
+        {
+            "topic": "crops",
+            "question": "Sunflower seed rate.",
+            "expected_intent": "sowing"
+        },
+        {
+            "topic": "soil",
+            "question": "NPK requirement for banana.",
+            "expected_intent": "nutrients"
+        },
+        {
+            "topic": "weather",
+            "question": "Local weather impact on harvesting.",
+            "expected_intent": "adaptation"
+        },
+        {
+            "topic": "market",
+            "question": "Market value of organic turmeric.",
+            "expected_intent": "price_trends"
+        },
+        {
+            "topic": "pests",
+            "question": "Safe insecticide for citrus plants.",
+            "expected_intent": "chemical_control"
+        },
+        {
+            "topic": "irrigation",
+            "question": "Irrigation frequency for winter vegetables.",
+            "expected_intent": "schedule"
+        },
+        {
+            "topic": "equipment",
+            "question": "Hand plough for kitchen garden.",
+            "expected_intent": "small_farmers"
+        },
+        {
+            "topic": "general",
+            "question": "Integrated pest management basics.",
+            "expected_intent": "practices"
+        },
+        {
+            "topic": "crops",
+            "question": "Spacing between coconut trees.",
+            "expected_intent": "sowing"
+        },
+        {
+            "topic": "soil",
+            "question": "Benefits of mulching for soil.",
+            "expected_intent": "improvement"
+        },
+        {
+            "topic": "weather",
+            "question": "High humidity risks for grapes.",
+            "expected_intent": "risk_management"
+        },
+        {
+            "topic": "market",
+            "question": "Export demand for basmati rice.",
+            "expected_intent": "selling_time"
+        },
+        {
+            "topic": "pests",
+            "question": "Identify fruit rot in chili.",
+            "expected_intent": "pest_id"
+        },
+        {
+            "topic": "irrigation",
+            "question": "Smart irrigation using sensors.",
+            "expected_intent": "method"
+        },
+        {
+            "topic": "equipment",
+            "question": "Cleaning rust from metal tools.",
+            "expected_intent": "maintenance"
+        }
+    ]

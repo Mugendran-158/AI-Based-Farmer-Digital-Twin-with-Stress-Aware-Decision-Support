@@ -1,0 +1,53 @@
+﻿.\venv\Scripts\python.e
+xe : 
+C:\Users\Mugendraraja 
+R\Videos\d2f 
+orifarm_ai (6)\d2f orif
+arm_ai\DMPMHCV\DMPMHCV\
+backend\venv\Lib\site-p
+ackages\flask_limiter\_
+extension.py:364: 
+UserWarning: Using the 
+in-memory storage for 
+tracking rate limits 
+as no storage was 
+explicitly specified. 
+This is not 
+recommended for 
+production use. See: ht
+tps://flask-limiter.rea
+dthedocs.io#configuring
+-a-storage-backend for 
+documentation about 
+configuring the 
+storage backend.
+At line:1 char:1
++ .\venv\Scripts\python
+.exe 
+init_postgres_db.py > 
+db_init_full.log 2>&1 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (C:\Users\Muge   
+ nd...torage backen    
+d.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+  warnings.warn(
+Pre-loading Farmer Intelligence Core...
+DEBUG: Engine Init -> Rules: 8
+DEBUG: Engine Init -> Knowledge: 10
+DEBUG: Engine Init -> Global Standards: 4
+DEBUG: Engine Init -> Integrated Dataset: 3 crops
+[INIT] Initializing PostgreSQL Database (Zero-Trust Schema)...
+[ERROR] Database Initialization Failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

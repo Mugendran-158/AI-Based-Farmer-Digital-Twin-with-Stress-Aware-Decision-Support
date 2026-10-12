@@ -1,0 +1,97 @@
+{
+  "crops": [
+    "rice",
+    "wheat",
+    "maize",
+    "millets",
+    "pulses",
+    "oilseeds",
+    "sorghum",
+    "barley",
+    "banana",
+    "mango",
+    "apple",
+    "citrus",
+    "grapes",
+    "pomegranate",
+    "guava",
+    "papaya",
+    "tomato",
+    "onion",
+    "potato",
+    "chili",
+    "okra",
+    "brinjal",
+    "cabbage",
+    "cauliflower",
+    "tulsi",
+    "aloe vera",
+    "ashwagandha",
+    "neem",
+    "turmeric",
+    "ginger",
+    "garlic",
+    "tea",
+    "coffee",
+    "rubber",
+    "coconut",
+    "arecanut",
+    "cotton",
+    "sugarcane",
+    "tobacco",
+    "lentils",
+    "black gram",
+    "green gram",
+    "chickpeas",
+    "mustard",
+    "groundnut",
+    "soybean",
+    "watermelon",
+    "muskmelon",
+    "cucumber",
+    "bitter gourd"
+  ],
+  "stages": [
+    "sowing",
+    "seedling",
+    "vegetative",
+    "flowering",
+    "fruiting",
+    "harvest"
+  ],
+  "soils": [
+    "clay",
+    "sandy",
+    "loam",
+    "black",
+    "red",
+    "alluvial",
+    "laterite"
+  ],
+  "regions": [
+    "tropical",
+    "temperate",
+    "arid",
+    "semi-arid",
+    "coastal",
+    "hilly"
+  ],
+  "advice_templates": {
+    "irrigation": {
+      "clay": "Reduce frequency but ensure depth. Clay holds water too long.",
+      "sandy": "High frequency, low volume. Sandy soil drains in minutes.",
+      "loam": "Standard schedule. Loam is the ideal balance.",
+      "black": "Deep watering required. Black soil cracks when dry."
+    },
+    "pests": {
+      "flowering": "Avoid heavy chemical sprays to protect pollinators.",
+      "seedling": "Protect tender shoots from aphids and damping-off.",
+      "fruiting": "Monitor for borers. Use organic traps near harvest."
+    },
+    "soil": {
+      "red": "Needs organic matter to improve nutrient retention.",
+      "alluvial": "Naturally fertile, but needs nitrogen management for high yield.",
+      "laterite": "Acidic soil. Use lime treatment to balance pH."
+    }
+  }
+}

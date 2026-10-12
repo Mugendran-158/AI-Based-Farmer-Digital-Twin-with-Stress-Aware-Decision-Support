@@ -1,0 +1,99 @@
+{
+    "varieties": {
+        "rice": [
+            "Basmati",
+            "IR64",
+            "Samba",
+            "Ponni",
+            "Jasmine",
+            "Sticky",
+            "Brown"
+        ],
+        "wheat": [
+            "Sharbati",
+            "Kalyansona",
+            "Durum",
+            "Emmer",
+            "Sonalika"
+        ],
+        "mango": [
+            "Alphonso",
+            "Banganapalli",
+            "Kesar",
+            "Langra",
+            "Totapuri",
+            "Neelum"
+        ],
+        "banana": [
+            "Grand Naine",
+            "Robusta",
+            "Red Banana",
+            "Poovan",
+            "Nendran"
+        ],
+        "tomato": [
+            "Roma",
+            "Cherry",
+            "Heirloom",
+            "Beefsteak",
+            "Grape",
+            "Plum"
+        ]
+    },
+    "micro_stages": [
+        "Seed Treatment",
+        "Nursery",
+        "Transplanting",
+        "Tillering",
+        "Vegetative Peak",
+        "Panicle Initiation",
+        "Booting",
+        "Flowering Start",
+        "Peak Flowering",
+        "Milking",
+        "Dough",
+        "Maturity",
+        "Harvesting",
+        "Post-Harvest Drying"
+    ],
+    "ph_levels": {
+        "acidic": "4.5-5.5",
+        "neutral": "6.0-7.5",
+        "alkaline": "8.0-9.0"
+    },
+    "climate_factors": {
+        "humidity_high": "Risk of fungal infections in heavy crops.",
+        "humidity_low": "Increased transpiration stress. Watch soil moisture.",
+        "wind_high": "Mechanical damage risk. Staking required for tall crops.",
+        "cloudy": "Reduced photosynthesis. Adjust irrigation downward."
+    },
+    "nutrient_deficiencies": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc",
+        "Iron",
+        "Boron",
+        "Magnesium"
+    ],
+    "pests_micro": {
+        "sucking": [
+            "Aphids",
+            "Whitefly",
+            "Thrips",
+            "Jassids",
+            "Mealy Bug"
+        ],
+        "boring": [
+            "Fruit Borer",
+            "Stem Borer",
+            "Top Borer",
+            "Leaf Folder"
+        ],
+        "soil_borne": [
+            "Cutworm",
+            "Root Grub",
+            "Termites"
+        ]
+    }
+}

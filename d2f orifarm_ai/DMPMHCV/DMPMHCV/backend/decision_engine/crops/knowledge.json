@@ -1,0 +1,273 @@
+{
+    "rice": {
+        "zones": [
+            "tropical",
+            "coastal",
+            "hilly"
+        ],
+        "kharif": {
+            "soil_suitability": [
+                "clay",
+                "clay loam",
+                "alluvial"
+            ],
+            "irrigation": {
+                "method": "flood",
+                "frequency_days": 3,
+                "depth_mm": 50
+            },
+            "feeding": "NPK 120:60:40 + Zinc 25kg/ha"
+        },
+        "rabi": {
+            "soil_suitability": [
+                "clay",
+                "loam"
+            ],
+            "irrigation": {
+                "method": "flood",
+                "frequency_days": 5,
+                "depth_mm": 40
+            }
+        },
+        "pests": [
+            "yellow stem borer",
+            "leaf folder",
+            "brown plant hopper"
+        ],
+        "diseases": [
+            "blast",
+            "bacterial leaf blight",
+            "sheath blight"
+        ]
+    },
+    "wheat": {
+        "zones": [
+            "temperate",
+            "arid"
+        ],
+        "rabi": {
+            "soil_suitability": [
+                "loam",
+                "clay loam",
+                "alluvial"
+            ],
+            "irrigation": {
+                "method": "sprinkler/furrow",
+                "frequency_days": 15,
+                "critical_stages": [
+                    "CRI",
+                    "tillering",
+                    "flowering"
+                ]
+            },
+            "feeding": "NPK 120:60:40"
+        },
+        "pests": [
+            "aphids",
+            "pink borer",
+            "termites"
+        ],
+        "diseases": [
+            "rust",
+            "karnal bunt",
+            "powdery mildew"
+        ]
+    },
+    "maize": {
+        "zones": [
+            "tropical",
+            "temperate",
+            "hilly"
+        ],
+        "kharif": {
+            "soil_suitability": [
+                "loam",
+                "sandy loam"
+            ],
+            "irrigation": {
+                "method": "furrow",
+                "frequency_days": 10
+            },
+            "feeding": "NPK 150:75:75"
+        },
+        "rabi": {
+            "soil_suitability": [
+                "loam",
+                "clay loam"
+            ],
+            "irrigation": {
+                "method": "furrow",
+                "frequency_days": 12
+            }
+        }
+    },
+    "tomato": {
+        "zones": [
+            "tropical",
+            "temperate",
+            "arid"
+        ],
+        "general": {
+            "soil_suitability": [
+                "well-drained sandy loam",
+                "red soil"
+            ],
+            "irrigation": {
+                "method": "drip",
+                "frequency_days": 2
+            },
+            "feeding": "Compost 25t/ha + NPK 100:80:60"
+        },
+        "pests": [
+            "fruit borer",
+            "whitefly",
+            "leaf miner"
+        ],
+        "diseases": [
+            "early blight",
+            "late blight",
+            "leaf curl virus"
+        ]
+    },
+    "banana": {
+        "zones": [
+            "tropical",
+            "coastal"
+        ],
+        "perennial": {
+            "soil_suitability": [
+                "rich well-drained loam",
+                "alluvial"
+            ],
+            "irrigation": {
+                "method": "drip",
+                "frequency_days": 2,
+                "moisture": "High"
+            },
+            "feeding": "NPK 200:200:400g/plant/year"
+        },
+        "pests": [
+            "rhizome weevil",
+            "pseudostem borer"
+        ],
+        "diseases": [
+            "panama wilt",
+            "sigatoka leaf spot"
+        ]
+    },
+    "mango": {
+        "zones": [
+            "tropical",
+            "semi-arid"
+        ],
+        "perennial": {
+            "soil_suitability": [
+                "deep alluvial loam",
+                "laterite",
+                "red soil"
+            ],
+            "irrigation": {
+                "method": "basin",
+                "frequency_days": 10,
+                "flowering_wait": "Stop watering during peak flowering"
+            },
+            "feeding": "FYM 50kg + NPK 1kg/tree"
+        },
+        "pests": [
+            "mango hopper",
+            "mealy bug",
+            "stone weevil"
+        ],
+        "diseases": [
+            "powdery mildew",
+            "anthracnose"
+        ]
+    },
+    "cotton": {
+        "zones": [
+            "tropical",
+            "black soil regions"
+        ],
+        "kharif": {
+            "soil_suitability": [
+                "deep black soil",
+                "heavy clay loam"
+            ],
+            "irrigation": {
+                "method": "alternate furrow",
+                "frequency_days": 12
+            },
+            "feeding": "NPK 100:50:50 + Micronutrients"
+        }
+    },
+    "potato": {
+        "zones": [
+            "temperate",
+            "hilly",
+            "sub-tropical"
+        ],
+        "rabi": {
+            "soil_suitability": [
+                "sandy loam",
+                "loose soil"
+            ],
+            "irrigation": {
+                "method": "sprinkler",
+                "frequency_days": 7
+            },
+            "feeding": "FYM 25t + NPK 120:100:100"
+        },
+        "pests": [
+            "aphids",
+            "potato tuber moth"
+        ],
+        "diseases": [
+            "late blight",
+            "scab"
+        ]
+    },
+    "coconut": {
+        "zones": [
+            "coastal",
+            "tropical"
+        ],
+        "perennial": {
+            "soil_suitability": [
+                "sandy loam",
+                "alluvial",
+                "coastal sandy"
+            ],
+            "irrigation": {
+                "method": "drip/basin",
+                "frequency_days": 3,
+                "salt_tolerance": "High"
+            },
+            "feeding": "NPK 500:320:1200g/palm/year"
+        },
+        "pests": [
+            "rhinoceros beetle",
+            "red palm weevil"
+        ],
+        "diseases": [
+            "bud rot",
+            "leaf spot"
+        ]
+    },
+    "okra": {
+        "zones": [
+            "tropical",
+            "temperate"
+        ],
+        "general": {
+            "soil_suitability": [
+                "well-drained loam",
+                "sandy loam"
+            ],
+            "irrigation": {
+                "method": "drip",
+                "frequency_days": 3
+            },
+            "feeding": "NPK 100:60:50"
+        }
+    }
+}

@@ -1,0 +1,87 @@
+--- START DEBUG: Why are my rice leaves turning yellow in the center? ---
+TOPIC: crops
+CROP: rice
+INTENT: general_inquiry
+SCORE: 98
+DECISION: 
+[EXPERT DIAGNOSIS]: Zinc (Zn) Deficiency (Khaira disease). Apply Zinc Sulfate spray.
+ANSWER:
+### Neural Field Report: RICE | VEGETATIVE STAGE
+
+
+[EXPERT DIAGNOSIS]: Zinc (Zn) Deficiency (Khaira disease). Apply Zinc Sulfate spray.
+
+---
+**COGNITIVE DIAGNOSIS:** Symptom matching confirmed a specific metabolic or pathogen-induced anomaly.
+
+**NEURAL FORECAST:** None
+--- END DEBUG ---
+
+--- START DEBUG: coffee sowing depth ---
+TOPIC: crops
+CROP: coffee
+INTENT: sowing
+SCORE: 98
+DECISION: GLOBAL STANDARD: For Coffee, recommended sowing depth is 2cm with spacing of 200x200cm.
+ANSWER:
+### Neural Field Report: COFFEE | SOWING STAGE
+
+GLOBAL STANDARD: For Coffee, recommended sowing depth is 2cm with spacing of 200x200cm.
+
+---
+**COGNITIVE DIAGNOSIS:** Correct sowing depth for coffee ensures uniform germination and root crown stability.
+
+**NEURAL FORECAST:** None
+--- END DEBUG ---
+
+--- START DEBUG: It is very hot today, what about my maize which is tasseling? ---
+TOPIC: crops
+CROP: maize
+INTENT: general_inquiry
+SCORE: 98
+DECISION: ENVIRONMENTAL STRESS ALERT: Heat wave detected. Increase irrigation frequency. Apply surface mulch. STRESS MULTIPLIER: Thermal stress during tasseling/flowering kills pollen grains. Apply overhead cooling.
+ANSWER:
+### Neural Field Report: MAIZE | VEGETATIVE STAGE
+
+ENVIRONMENTAL STRESS ALERT: Heat wave detected. Increase irrigation frequency. Apply surface mulch. STRESS MULTIPLIER: Thermal stress during tasseling/flowering kills pollen grains. Apply overhead cooling.
+
+---
+**COGNITIVE DIAGNOSIS:** Cooling via overhead misting at dawn prevents pollen sterilization.
+
+**NEURAL FORECAST:** None
+--- END DEBUG ---
+
+--- START DEBUG: How to start farming? ---
+TOPIC: general
+CROP: general
+INTENT: planning
+SCORE: 98
+DECISION: Reviewing fundamental agricultural protocols. Success in farming requires precise timing and resource management.
+ANSWER:
+### Neural Field Report: GENERAL | VEGETATIVE STAGE
+
+Reviewing fundamental agricultural protocols. Success in farming requires precise timing and resource management.
+
+---
+**COGNITIVE DIAGNOSIS:** Based on your loamy soil profile and Rabi seasonal variables, this decision mitigates thermal stress and optimizes nutrient uptake.
+
+**NEURAL FORECAST:** None
+--- END DEBUG ---
+
+--- START DEBUG: What is the best price for wheat? ---
+TOPIC: market
+CROP: wheat
+INTENT: selling_time
+SCORE: 98
+DECISION: MARKET TREND ANALYSIS: Current supply-demand data indicates a price surge. Recommend proper storage for 30 days.
+ANSWER:
+### Neural Field Report: WHEAT | VEGETATIVE STAGE
+
+MARKET TREND ANALYSIS: Current supply-demand data indicates a price surge. Recommend proper storage for 30 days.
+
+---
+**COGNITIVE DIAGNOSIS:** Low local inventory matched with seasonal peak demand creates a leverage point for farmers.
+
+**NEURAL FORECAST:** Price expected to stabilize 15% higher by next month.
+--- END DEBUG ---
+

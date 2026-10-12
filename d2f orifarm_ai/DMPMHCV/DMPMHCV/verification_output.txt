@@ -1,0 +1,22 @@
+--- STARTING VERIFICATION ---
+Topic: general         | Question: How to do organic farming? | Detected Key: GENERAL_ORGANIC_GUIDE
+Topic: crop_management | Question: What is intercropping? | Detected Key: CROP_INTERCROP_GUIDE
+Topic: crop_management | Question: How to increase yield? | Detected Key: CROP_YIELD_GUIDE
+Topic: soil            | Question: How to test soil pH? | Detected Key: SOIL_TEST_PH_GUIDE
+Topic: weather         | Question: drought risks        | Detected Key: WEATHER_RISK_GUIDE
+Topic: market          | Question: when to sell tomato for profit? | Detected Key: MARKET_PROFIT_GUIDE
+Topic: market          | Question: storage in mandi     | Detected Key: MARKET_STORAGE_GUIDE
+Topic: pests           | Question: pest symptoms        | Detected Key: PEST_SYMPTOMS_GUIDE
+Topic: irrigation      | Question: drip irrigation tech | Detected Key: IRRIGATION_TECH_GUIDE
+Topic: equipment       | Question: manual vs mechanized tools | Detected Key: EQUIPMENT_TECH_GUIDE
+Topic: soil            | Question: soil health          | Detected Key: SOIL_HEALTH_GENERAL
+Topic: market          | Question: market prices        | Detected Key: MARKET_AWARENESS_GENERIC
+Topic: equipment       | Question: tractor maintenance  | Detected Key: EQUIPMENT_GUIDE_GENERAL
+Topic: soil            | Question: tomato market prices | Detected Key: REFUSAL_MARKET
+Topic: crops           | Question: weather rain         | Detected Key: REFUSAL_WEATHER
+Topic: pests           | Question: irrigation pump      | Detected Key: REFUSAL_IRRIGATION
+Topic: crops           | Question: மண்ணின் வளம்         | Detected Key: REFUSAL_SOIL
+Topic: soil            | Question: ஊட்டச்சத்து குறைபாடு | Detected Key: SOIL_NUTRIENT_GUIDE
+Topic: general         | Question: जैविक खेती           | Detected Key: GENERAL_ORGANIC_GUIDE
+Topic: market          | Question: मुनाफा कैसे कमाएं    | Detected Key: MARKET_PROFIT_GUIDE
+--- VERIFICATION COMPLETE ---

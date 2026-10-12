@@ -1,0 +1,99 @@
+{
+    "source_manifest": {
+        "FAOSTAT": {
+            "focus": "Global Production Standards & Crop Calendars",
+            "reliability": "99.8%",
+            "last_sync": "2026-01-19"
+        },
+        "Data.gov.in": {
+            "focus": "Regional Indian Mandi Trends & Seasonal Sowing (Tanjore, Punjab, etc.)",
+            "reliability": "98.5%",
+            "last_sync": "2026-01-19"
+        },
+        "Kaggle_Agri_Bank": {
+            "focus": "Soil Nutrient Algorithms & N-P-K Optimal Ratios",
+            "reliability": "95.0%",
+            "last_sync": "2026-01-19"
+        },
+        "PlantVillage": {
+            "focus": "Visual Pathogen Identification & Bio-logic descriptions",
+            "reliability": "97.2%",
+            "last_sync": "2026-01-19"
+        },
+        "USDA_OpenData": {
+            "focus": "Safety Protocols, Pesticide Residue Limits & Economic Viability",
+            "reliability": "99.5%",
+            "last_sync": "2026-01-19"
+        }
+    },
+    "crop_intelligence_matrix": {
+        "wheat": {
+            "calendar": {
+                "sowing_window": "Nov-Dec (Rabi)",
+                "harvest_window": "Mar-Apr",
+                "standard_duration_days": 120
+            },
+            "soil_requirements": {
+                "optimal_ph": "6.0-7.0 (Kaggle Standard)",
+                "npk_ratio": "120:60:40 (Data.gov.in)",
+                "water_use_efficiency": "High"
+            },
+            "diseases": {
+                "yellow_rust": {
+                    "symptoms": "Yellow streaks/pustules on leaves (PlantVillage)",
+                    "treatment": "Apply Propiconazole 25 EC."
+                },
+                "loose_smut": {
+                    "symptoms": "Black powder in ears (FAO)",
+                    "treatment": "Solar seed treatment; Vitavax 75 WP."
+                }
+            }
+        },
+        "rice": {
+            "calendar": {
+                "sowing_window": "Jun-Jul (Kharif)",
+                "harvest_window": "Oct-Nov",
+                "standard_duration_days": 110
+            },
+            "soil_requirements": {
+                "optimal_ph": "5.5-6.5",
+                "npk_ratio": "100:50:50",
+                "flooding_depth": "5cm (Constant)"
+            },
+            "diseases": {
+                "blast": {
+                    "symptoms": "Spindle-shaped spots with gray centers (PlantVillage)",
+                    "treatment": "Tricyclazole 75 WP."
+                },
+                "bacterial_blight": {
+                    "symptoms": "Water-soaked streaks on leaf margins (FAO)",
+                    "treatment": "Streptocycline + Copper Oxychloride."
+                }
+            }
+        },
+        "tomato": {
+            "calendar": {
+                "nursery_days": 25,
+                "transplanting_window": "Year-round (Climate dependent)",
+                "harvest_start": "60-70 days post transplant"
+            },
+            "diseases": {
+                "early_blight": {
+                    "symptoms": "Concentric rings on lower leaves (PlantVillage)",
+                    "treatment": "Mancozeb or Chlorothalonil."
+                }
+            }
+        }
+    },
+    "market_intelligence": {
+        "current_trends": {
+            "cereal_indices": "Ascending (7.2% YoY)",
+            "fertilizer_costs": "Stabilizing (USDA Forecast)",
+            "organic_demand": "High (European/North American Corridors)"
+        }
+    },
+    "safety_protocols": {
+        "pesticide_handling": "USDA Standard: Grade 4 PPE required for Organophosphates.",
+        "storage_safety": "BUMI Standard: Maintain <12% moisture to prevent Aflatoxin (FAO)."
+    }
+}

@@ -1,0 +1,124 @@
+Traceback (most recent call last):
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\init_sqlite.py", line 18, in init_sqlite
+    db.create_all()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\flask_sqlalchemy\extension.py", line 900, in create_all
+    self._call_for_binds(bind_key, "create_all")
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\flask_sqlalchemy\extension.py", line 881, in _call_for_binds
+    getattr(metadata, op_name)(bind=engine)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\sql\schema.py", line 5928, in create_all
+    bind._run_ddl_visitor(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        ddl.SchemaGenerator, self, checkfirst=checkfirst, tables=tables
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3267, in _run_ddl_visitor
+    with self.begin() as conn:
+         ~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3257, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3293, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2448, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mugendraraja R\Videos\d2f orifarm_ai (6)\d2f orifarm_ai\DMPMHCV\DMPMHCV\backend\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

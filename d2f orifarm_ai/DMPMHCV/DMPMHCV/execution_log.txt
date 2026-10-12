@@ -1,0 +1,19 @@
+--- START DEBUG: Why are my rice leaves turning yellow in the center? ---
+TOPIC: crops
+CROP: rice
+INTENT: general_inquiry
+CONTEXT_CLIMATE: normal
+CONTEXT_SOIL: loamy
+SCORE: 98
+DECISION: 
+[EXPERT DIAGNOSIS]: Zinc (Zn) Deficiency (Khaira disease). Apply Zinc Sulfate spray.
+ANSWER: ### Neural Field Report: RICE | VEGETATIVE STAGE
+
+
+[EXPERT DIAGNOSIS]: Zinc (Zn) Deficiency (Khaira disease). Apply Zinc Sulfate spray.
+
+---
+**COGNITIVE DIAGNOSIS:** Based on your loamy soil profile and Rabi seasonal variables, this decision mitigates thermal stress and optimizes nutrient uptake.
+
+AI FORECAST: Optimized growth trajectory detected. Maintaining this protocol reduces pest vulnerability by 15% in the next growth cycle.
+--- END DEBUG ---
